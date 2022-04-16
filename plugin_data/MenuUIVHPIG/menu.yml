@@ -1,0 +1,48 @@
+0:
+  button: "§l§c•§9 SCoin §c•"
+  command: "scoin"
+1:
+  button: "§l§c•§9 Cường Hoá §c•"
+  command: "cuonghoa"
+2:
+  button: "§l§c•§9 Shop §c•"
+  command: "shop"
+3:
+  button: "§l§c•§9 Chợ Đen §c•"
+  command: "choden"
+4:
+  button: "§l§c•§9 Mua Lòng §c•"
+  command: "mualong coin"
+5:
+  button: "§l§c•§9 Generator §c•"
+  command: "generator"
+6:
+  button: "§l§c•§9 Rank §c•"
+  command: "rank"
+7:
+  button: "§l§c•§9 Cây Phát Tài §c•"
+  command: "cay"
+8:
+  button: "§l§c•§9 Tích Lũy §c•"
+  command: "tichluy"
+9:
+  button: "§l§c•§9 Buy EC VIP §c•"
+  command: "buyecvip"
+10:
+  button: "§l§c•§9 Kho Gỗ §c•"
+  command: "khogo"
+11:
+  button: "§l§c•§9 Chuyển Sinh §c•"
+  command: "chuyensinh"
+12:
+  button: "§l§c•§9 Pickaxe Menu §c•"
+  command: "pickaxe"
+13:
+  button: "§l§c•§9 Axe Menu §c•"
+  command: "axe"
+14:
+  button: "§l§c•§9 Dịch Chuyển §c•"
+  command: "dichchuyen"
+15:
+  button: "§l§c•§9 Nhiệm Vụ §c•"
+  command: "nhiemvu"

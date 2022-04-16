@@ -1,0 +1,19 @@
+---
+character_banned: ๵᢫᝜﷭
+character_allowed:
+- é
+- à
+- ù
+- ç
+- è
+- §
+message_prevent: true
+message: §cIt's not allowed to do that !
+kick: false
+kick_message: §cIt's not allowed to do that !
+commands_suspect:
+- /tell
+- /w
+- /me
+- /whisper
+...

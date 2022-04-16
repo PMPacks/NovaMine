@@ -1,0 +1,10 @@
+---
+## Main configuration file for MultiWorld
+
+## Supported languages (English, Czech, German, Japanese, Russian)
+# You can add your language by creating PullRequest at github (github.com/CzechPMDevs/MultiWorld/pulls)
+lang: 'English'
+
+## If you want to disable prefix, set prefix to ' '
+prefix: '§3[MW]'
+...

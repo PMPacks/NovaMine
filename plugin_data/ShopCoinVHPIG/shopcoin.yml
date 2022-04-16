@@ -1,0 +1,24 @@
+0:
+  button: "§l§c•§e Mua VIP §c•"
+  command: "buyvip"
+  image: "textures/other/vip"
+1:
+  button: "§l§c•§e Mua Pet §c•"
+  command: "pets"
+  image: "textures/other/pet"
+2:
+  button: "§l§c•§e Mua Osin §c•"
+  command: "buyosin"
+  image: "textures/other/osin"
+3:
+  button: "§l§c•§e Mua Royal Pass §c•"
+  command: "buyssp"
+  image: "textures/other/royal"
+4:
+  button: "§l§c•§e Mua Xu §c•"
+  command: "buyxu"
+  image: "textures/other/xu"
+5:
+  button: "§l§c•§e Mua Coin §c•"
+  command: "buycoin"
+  image: "textures/other/coin"

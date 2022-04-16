@@ -1,0 +1,37 @@
+#  ____  _            _______ _          _____
+# |  _ \| |          |__   __| |        |  __ \
+# | |_) | | __ _ _______| |  | |__   ___| |  | | _____   __
+# |  _ <| |/ _` |_  / _ \ |  | '_ \ / _ \ |  | |/ _ \ \ / /
+# | |_) | | (_| |/ /  __/ |  | | | |  __/ |__| |  __/\ V /
+# |____/|_|\__,_/___\___|_|  |_| |_|\___|_____/ \___| \_/
+
+# BlazinJoin Configuration File:
+#  You can use & for color coding in your messages.
+#  You can use {player} to get the player's name.
+#  You can use {line} to make the message go to a new line. (NOTE: does not work with title + subtitle options)
+#   Default Config:
+#      title: "&aWelcome to the Server!"
+#      subtitle: "&bThis is a great server!"
+#      no-permission: "&cYou do not have permission to use this command"
+#      guardian-curse: "enabled"
+#      message: "&aWelcome to the server {player}"
+#      join-message: "&a{player} joined"
+
+# The below config is the message on top that sends when a player joins the server (title).
+title: "§bиσναмιиє §aиєтωσяк"
+
+# The below config is the message on the bottom that sends when a player joins the server (subtitle).
+subtitle: "§l§bWelcome §eTo §aServer"
+
+# The below config is the message that sends when a player does not have permission to use the titlejoin command (no permission).
+no-permission: "&4Bạn không có quyền để sử dụng!"
+
+# The below config enabled or disables the elder guardian curse when you join the server (Options: enabled or disabled).
+guardian-curse: "disabled"
+
+# The below config allows you to send a message to the player when they join.
+message: ""
+
+# The below config allows you to change the join message of a player
+join-message: "§c§l❖§e {player} §c❖§a Đã tham gia"
+...

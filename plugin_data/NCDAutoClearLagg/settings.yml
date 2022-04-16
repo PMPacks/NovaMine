@@ -1,0 +1,9 @@
+---
+seconds: 1000
+items: true
+mobs: false
+time-left-message: §l§e•§a Hệ thống chuẩn bị dọn rác sau §c{SECONDS} §agiây nữa
+clear-item: §l§e•§a Hệ thống đã dọn §c{COUNT}§a item
+clear-mob: §l§e•§a Hệ thống đã dọn §c{COUNT}§a mob
+times: [50, 10, 5, 3, 2, 1]
+...

@@ -1,0 +1,22 @@
+database:
+  # Options: sqlite, mysql
+  type: sqlite
+  sqlite:
+    file: "auctions.sqlite"
+  mysql:
+    host: localhost
+    username: root
+    password: password
+    schema: "piggyauctions"
+  worker-limit: 1
+economy:
+  # Options: economyapi, multieconomy, xp
+  provider: economyapi
+auctions:
+  # Maximum value for specific user input
+  limits:
+    bid: 2147483647
+    starting-bid: 2147483647
+    duration: 1209600
+  bid-increment: 15
+  anti-snipe-duration: 120

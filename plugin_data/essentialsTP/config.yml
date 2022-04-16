@@ -1,0 +1,56 @@
+---
+plugin-name: essentalsTp+
+sqlite-dbname: essentials_tp
+tpa-here-cooldown: "30"
+tp-home-cooldown: "5"
+tp-warp-cooldown: "5"
+tp-spawn-cooldown: "5"
+MOTD: Welcome to this awsome plugin showcase was hell for the first day but hey lol
+wild-MaxX: "300"
+wild-MaxY: "300"
+bed-sets-home: "true"
+Lang_invalid_usage: 'INVALID USAGE:'
+Lang_command_only_use_ingame: This command can only be used in the game.
+Lang_no_permissions: '[EssentialsTP] No permission.'
+Lang_teleport_home: Teleported you home.
+Lang_teleport_spawn: §l§c【§bиσναмιиє §aиєтωσяк§c】§b Bạn đã trở về sảnh.
+Lang_teleport_wild: Teleported you some where wild.
+Lang_teleport_death: Teleported to last death cords.
+Lang_no_spawn_set: Error!
+Lang_teleport_spawn_original: Error!
+Lang_spawn_set: Spawn set.
+Lang_your_homes: 'Your Homes:'
+Lang_no_home_set: You have not yet set a home.
+Lang_no_home_name: You do not have a home by that name.
+Lang_home_set: Home set as
+Lang_home_delete_1: 'Home named:'
+Lang_home_delete_2: has been deleted.
+Lang_no_teleport_self: You cant teleport to your self.
+Lang_player_not_online: §l§c【§bиσναмιиє §aиєтωσяк§c】§c Người chơi này không trực tuyến
+Lang_sent_request_you: §l§c【§bиσναмιиє §aиєтωσяк§c】§b Đã gửi yêu cầu dịch chuyển đến
+  bạn.
+Lang_sent_request_them: §l§c【§bиσναмιиє §aиєтωσяк§c】§b Đã gửi một yêu cầu cho bạn,
+  để dịch chuyển đến họ.
+Lang_accept_request: §l§c【§bиσναмιиє §aиєтωσяк§c】§b Để chấp nhận yêu cầu này.
+Lang_decline_request: §l§c【§bиσναмιиє §aиєтωσяк§c】§b Để từ chối yêu cầu này.
+Lang_request_expire_1: This request is only good for
+Lang_request_expire_2: Seconds
+Lang_request_expire_3: before it expires.
+Lang_type: Type
+Lang_no_active_request: §l§c【§bиσναмιиє §aиєтωσяк§c】§c Không có yêu cầu hoạt động
+  tồn tại.
+Lang_warps: '§l§c【§bиσναмιиє §aиєтωσяк§c】§b Warp:'
+Lang_no_warps: §l§c【§bиσναмιиє §aиєтωσяк§c】§c Không có warp
+Lang_no_warp_listed: §l§c【§bиσναмιиє §aиєтωσяк§c】§c Không có warp theo tên đó được
+  liệt kê.
+Lang_warp_set: §l§c【§bиσναмιиє §aиєтωσяк§c】§b Warp Được Đặt Là
+Lang_warp_to: §l§c【§bиσναмιиє §aиєтωσяк§c】§b Bạn đã dịch chuyển đến warp:§e
+Lang_warp_delete_1: 'Warp named:'
+Lang_warp_delete_2: §l§c【§bиσναмιиє §aиєтωσяк§c】§b Warp đã được xóa
+Lang_no_warps_name: §l§c【§bиσναмιиє §aиєтωσяк§c】§c Không có Warps nào phù hợp với
+  tên đó cho máy chủ này.
+Land_chunk_not_loaded: §l§c【§bиσναмιиє §aиєтωσяк§c】§c Không thể tải đoạn này Không
+  an toàn để dịch chuyển.
+Lang_action_cooldown: This action is on cooldown.
+Lang_no_death: Die already please.
+...

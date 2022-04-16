@@ -1,0 +1,38 @@
+# Plugin RankUp Dành Cho PocketMine
+unleash-the-rankupdoesgroups: true
+# Nếu Bạn Đặt Thành false Thì RankUpDoesGroups Sẽ Không Được Tải
+# Điều Này Có Nghĩa Bạn Không Thể Đặt Nó Làm Người Quản Lý GroupManager
+# Rất Khuyến Khích Không Thay Đổi Điều Này
+preferred-economy: false
+# Đặt Nền Kinh Tế Ưa Thích Của Bạn
+# rankup\\economy\\Economy Và rankup\\economy\\PocketMoney Có Sẵn Theo Mặc Định
+# Đặt Thành false Để Tự Động Tải(Chỉ Các Nền Kinh Tế Hổ Trợ Chính Thức Mới Tự Động Tải)
+preferred-groupmanager: "rankup\\permission\\RankUpDoesGroups"
+# Đặt Người Quản Lý Group Ưa Thích Của Bạn
+# rankup\\permission\\RankUpDoesGroups Và rankup\\permission\\PurePerms Có Sẵn
+# RankUpDoesGroups Là Một Siêu Thay Thế Cho Những Người Không Sử Dụng PurePerms
+  
+  
+
+# Xác Định Tất Cả Các Rank Tại Đây:
+ranks:
+  Coal: 3500000
+  Iron: 4500000
+  Gold: 5500000
+  Diamond: 6500000
+  Emerald: 7500000
+  Legend: 8500000
+  Master: 9500000
+
+
+
+lang:
+  ranked-up-paid: "§l§6[§bиσναмιиє §aиєтωσяк§6]§f ↣§a Bạn đã lên rank:§e %s"
+  ranked-up-free: "§l§6[§bиσναмιиє §aиєтωσяк§6]§f ↣§a Bạn đã lên đến rank:§e %s"
+  group-add-error-paid: "§l§6[§bиσναмιиє §aиєтωσяк§6]§f ↣§c Không thể lên rank, hoàn tiền!"
+  group-add-error-free: "§l§6[§bиσναмιиє §aиєтωσяк§6]§f ↣§c Không thể lên rank!"
+  need-more-money-1: "§l§6[§bиσναмιиє §aиєтωσяк§6]§f ↣§c Bạn không đủ tiền để lên rank!"
+  need-more-money-2: "§l§6[§bиσναмιиє §aиєтωσяк§6]§f ↣§c Bạn cần %s Xu để lên rank."
+  missing-economy: " §l§6[§bиσναмιиє §aиєтωσяк§6]§f ↣§c Bạn không thể mua rank ngay bay giờ!"
+  have-max-rank: "§l§6[§bиσναмιиє §aиєтωσяк§6]§f ↣§e Bạn đã lên rank cuối cùng!"
+  command-permission-error: "§l§6[§bиσναмιиє §aиєтωσяк§6]§f ↣§c Bạn không có quyền lên rank!"

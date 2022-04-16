@@ -1,0 +1,37 @@
+# Author: SaltyPixelDevz ♥
+# Translate: Nguyễn Công Danh (NCD) ♥
+# Add Item To Shop: Nguyễn Công Danh (NCD) ♥
+# Facebook: https://www.facebook.com/NguyenCongDanh205
+
+# ĐỪNG LÀM
+config-version: 1
+# ĐỪNG ĐỤNG VÀO^^^^
+
+# Khi ai đó đóng cửa hàng, nó sẽ tắt hoàn toàn, họ sẽ phải chạy lại lệnh!
+Straight_Back: false
+
+# Khi ai đó đóng cửa hàng, nó sẽ quay trở lại khu vực Danh mục, sau đó họ có thể đóng cửa hàng từ đó.
+Back_to_Start: true
+
+# Điều này làm cho Command chỉ hoạt động khi người chơi ở trong Survival
+Survival: false
+
+# Điều này thêm Nút thoát vào Mục danh mục của Plugin (Được khuyến nghị để lại false)
+Category_ExitButton: false
+
+# Tin nhắn như Cảm ơn vì đã sử dụng Đóng!
+Thanks: true
+
+# Bật hoặc tắt Cửa sổ xác nhận lệnh
+command_comfirm: true
+
+
+
+Types:
+  Toggle: true #KHÔNG nên thay đổi điều này! (Thay đổi điều này có nghĩa là Plugin không hoạt động. Điều này sẽ được sửa trong một vài cập nhật!)
+  Input: true # true or false (thêm số người chơi nhập số phải nhập)
+  Slider: false # true or false (thêm thanh trượt Trình phát đầu vào phải trượt Thanh trượt)
+  Slider_Minimum: 1 # Phải là số (Số cho thanh trượt bình thường)
+  Slider_Maximum: 64 # Phải là số (Số cho số tiền tối đa họ có thể mua)
+  StepSlider: false # true or false (thêm thanh trượt)
+  Slider_Numbers: ["1", "15", "30", "64"] # Bạn có thể thêm nhiều số hơn nếu bạn làm theo định dạng tương tự!

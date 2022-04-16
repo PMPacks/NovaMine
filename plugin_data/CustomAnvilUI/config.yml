@@ -1,0 +1,49 @@
+---
+#==========================================
+#
+# Created by ItzFabb
+# Created at 23/July/2020-Thursday
+#
+#==========================================
+#Basic setup
+#
+# Use "\n" to add more lines!
+# Use "§" to add more colors!
+#
+#==========================================
+#
+Menu:
+  Title: "§l§e•§c Hệ Thống Anvil §e•"
+  Content: "§l§c↣§a Hãy chọn 1 ô"
+  Repair-Btn: "§l§f•§9 Sữa Chữa §f•"
+  Rename-Btn: "§l§f•§9 Đổi Tên §f•"
+  Exit-Btn: "§l§f•§c Thoát §f•"
+#
+#==========================================
+#
+Repair:
+  ShowMyMoney: "§l§c↣§a Tiền Của Bạn: §e"
+  Cost: "1000"
+  Title: "§l§e•§c Sữa Chữa §e•"
+  Content: "§l§c↣§a Sữa chữa vật phẩm bị hư hại"
+  Button: "§l§f•§9 Sữa Chữa §f•"
+  Back: "§l§f•§c Quay Lại §f•"
+#
+Repair-Message:
+  NoMoney: "§l§c【§bиσναмιиє §aиєтωσяк§c】§c Bạn không có tiền"
+  HoldItem: "§l§c【§bиσναмιиє §aиєтωσяк§c】§c Vui lòng tầm vật phẩm trong tay!"
+  succesfully: "§l§c【§bиσναмιиє §aиєтωσяк§c】§a Bạn đã sữa chữa thành công!"
+#
+#==========================================
+#
+Rename:
+  ShowMyMoney: "§l§c↣§a Tiền Của Bạn: §e"
+  Cost: "5000"
+  Content: "§l§c↣§a Đổi tên vật phẩm"
+#
+Rename-Message:
+  NoMoney: "§l§c【§bиσναмιиє §aиєтωσяк§c】§c Bạn không có tiền"
+  HoldItem: "§l§c【§bиσναмιиє §aиєтωσяк§c】§c Vui lòng tầm vật phẩm trong tay!"
+  succesfully: "§l§c【§bиσναмιиє §aиєтωσяк§c】§a Bạn đã đổi tên thành công!"
+#==========================================
+...

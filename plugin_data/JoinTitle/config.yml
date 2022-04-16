@@ -1,0 +1,28 @@
+---
+#  _____ _ _   _          _       _
+# |_   _(_) |_| | ___    | | ___ (_)_ __
+#   | | | | __| |/ _ \_  | |/ _ \| | '_ \
+#   | | | | |_| |  __/ |_| | (_) | | | | |
+#   |_| |_|\__|_|\___|\___/ \___/|_|_| |_|
+#
+#     Really simple title plugin by NickTehUnicorn.
+#  github: https://github.com/NickTehUnicorn/JoinTitle
+
+# You can use & instead of §.
+
+# What you want to send the player as the title (the huge one on the top)
+# Don't write something long here as players with small screens might not see.
+title: "§l§e§kiiii§r§l§a §bиσναмιиє §aиєтωσяк §e§kiiii§r"
+
+# Small text under the huge title.
+subtitle: "§l§eChúc Bạn Chơi Vui Vẻ"
+
+# How long it takes for the title to fade in. (in seconds)
+fadein: 2
+
+# How long the title stays on player's screen. (in seconds)
+stay: 5
+
+# How long it takes for the title to fade out. (in seconds)
+fadeout: 1
+...

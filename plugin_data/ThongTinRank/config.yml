@@ -1,0 +1,19 @@
+---
+ 
+# If you want to add a paragraph then you only have to do 
+# \n at the text then the text one goes down for example: Test\nTest = Test 
+#                                                                     Test 
+# So if you do this twice (\n\n), there's an empty line between the example Test
+ 
+# Here you can switch the Description
+Title: "§l§e•§a Thông Tin §e•"
+ 
+# Here you can switch the content
+Content: "§l§c↣§e Rank:\n§l§6•§a Coal\n§l§6•§a Iron\n§l§6•§a Gold\n§l§6•§a Diamond\n§l§6•§a Emerald\n§l§6•§a Legend\n§l§6•§a Master\n\n§l§c↣§e Giá Rank:\n§l§6•§a Coal: 3500000 \n§l§6•§a Iron: 4500000 \n§l§6•§a Gold: 5500000 \n§l§6•§a Diamond: 6500000 \n§l§6•§a Emerald: 7500000 \n§l§6•§a Legend: 8500000 \n§l§6•§a Master: 9500000 "
+ 
+# Here you can switch the text for the Button
+Button: "Submit"
+ 
+# Here you can add if the Player joins that then you have to set it to true
+open_at_first_join: "false"
+...

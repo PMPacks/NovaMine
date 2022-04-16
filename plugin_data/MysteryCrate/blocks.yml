@@ -1,0 +1,30 @@
+---
+uncommon: §6Uncommon§a Crate
+uncommon.x: 81
+uncommon.y: 28
+uncommon.z: -603
+common: §6Common§a Crate
+common.x: 85
+common.y: 28
+common.z: -602
+vote: §6Vote§a Crate
+vote.x: 89
+vote.y: 28
+vote.z: -603
+mythic: §6Mythic§a Crate
+mythic.x: 93
+mythic.y: 28
+mythic.z: -604
+legendary: §6Legendary§a Crate
+legendary.x: 77
+legendary.y: 28
+legendary.z: -604
+lucky: §6Lucky§a Crate
+lucky.x: 73
+lucky.y: 28
+lucky.z: -606
+eventboss: §6Eventboss§a Crate
+eventboss.x: 97
+eventboss.y: 28
+eventboss.z: -605
+...

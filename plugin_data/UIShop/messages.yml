@@ -1,0 +1,30 @@
+# Author: SaltyPixelDevz ♥
+# Translate: Nguyễn Công Danh (NCD) ♥
+# Add Item To Shop: Nguyễn Công Danh (NCD) ♥
+# Facebook: https://www.facebook.com/NguyenCongDanh205
+
+message-version: 1
+Messages:
+  Survival: "§8(§c!§8) §cBạn không được mở giao diện shop khi đang ở chế độ sáng tạo" # Thông báo khi người chơi đang sáng tạo không được mở shop
+  ExitButton: "§l§e• §cTrở Lại §e•" # Nút cho danh mục
+  Category_ExitButton: "§c§lThoát" # Nút để thoát Plugin!
+  Input: "§l§e• §cSố Lượng:" # Thanh để ghi số lượng mua & bán!
+  Each: "$ Mỗi Cái" # Dấu hiệu cho các nút như Steak 4 ($ Mỗi) là phần nó thay đổi
+
+  # Bạn có thể thêm {sell} tại đây để hiển thị giá bán của mặt hàng.
+  BuySell: "§l§eBật Để Bán\n" # Nút bật để bán
+
+  # Bạn cũng có thể thêm {sell} vào đây nếu bạn thích nó trong thông báo lên trên
+  Information: "§l§e• §aMua: §f${cost}\n§l§e• §bBán: §f${sell}\n"
+  ## Bạn có thẻ sử dụng {amount}, {item} và {cost} tại đây
+  Paid_for: "§8(§a!§8) §aBạn đã mua §f{amount} §e{item} §avới giá §f${cost} §athành công"
+  ## Bạn có thể sử dụng {amount}, {item}, {cost}, và {missing} tại đây
+  Not_enough_money: "§8(§c!§8) §cBạn không đủ tiền để mua §f{amount} §e{item} §cvới giá §f${cost}§c. Bạn cần thêm §f${missing} §cđể mua"
+  Paid: "§8(§a!§8) §aBạn đã bán §f{amount} §e{item} §avới giá §f${pay} mỗi cái §athành công"
+  Not_enough_items: "§8(§c!§8) §cBạn không đủ §f{amount} §e{item} §cđể bán với giá §f${pay} mỗi cái"
+  Thanks: "§8(§a!§8) §aCảm ơn bạn đã sử dụng Cửa hàng!" # Tin nhắn được gửi trên mục Mua!
+  Thanks2: "§8(§a!§8) §aCảm ơn bạn đã ghé thăm Cửa hàng!" # Tin nhắn được gửi trên Shop Đóng!
+  cmd_confirm: "§8(§e!§8) §eBạn có chắc chắn muốn mua Lệnh này?"
+  yes: "§a§lCó"
+  no: "§4§lKhông"
+  command_buy_cance: "§8(§c!§8) §cBạn đã hủy giao dịch!"

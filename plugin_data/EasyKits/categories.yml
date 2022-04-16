@@ -1,0 +1,8 @@
+---
+example category 1:
+  kits: []
+  locked: false
+example category 2:
+  kits: []
+  locked: true
+...

@@ -1,0 +1,33 @@
+---
+# ID vật phẩm nhận được khi khai thác
+mining-reward-id: 341 # <- đây là id của Mắt Ender
+
+# Sử dụng & để đổi màu chữ
+prefix: ""
+
+# Title hiện lên (ngẫu nhiên) khi nhận được phần thưởng.
+titles:
+  - "§l§6Phần Thưởng Mine"
+
+# Sử dụng & để đổi màu chữ
+rewards:
+  0: # <- đây là id của Đá 
+    type: "item"
+    id: 0
+    meta: 0
+    count: 0
+    customName: "Default" # <- đây là tên mặc định
+    enchantments:
+      - "0:1" # ID:Level
+  2: # đây là id của Cỏ
+    type: "command"
+    command: "givemoney {player} 1000"
+    message: "§l§6[§bиσναмιиє §aиєтωσяк§6]§f ↣§a Bạn đã nhận được 1000Xu"
+
+reward-count-min: 1 # Số lượng phần thưởng tối thiểu mà người chơi có thể nhận được.
+reward-count-max: 2 # Số lượng phần thưởng tối đa mà người chơi có thể nhận được.
+
+chance: 300 # Cơ hội để nhận được phần thưởng.
+
+lengthOfAnimation: 1 # 4 đơn vị này = 1 giây (chỉnh thấp để giảm lag)
+...

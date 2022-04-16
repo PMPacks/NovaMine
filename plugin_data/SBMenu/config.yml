@@ -1,0 +1,91 @@
+---
+#==========================================
+#
+#Created by ItzFabb
+# Version: 0.1
+#   Created at: 11/August/2020
+#
+#==========================================
+#
+#Basic setup:
+# Use "\n" to add a new line
+# Use "§" to add a color!
+# Use "" or "§r " to leave it blank (empty)
+# Your World Name
+#
+#==========================================
+#
+#name of the world "lobby" world that u set! make sure the name is correct! to make the plugin work 100% perfect!
+# example > World-name: "your_world_name"
+WORLD-NAME: "lobby"
+#
+#==========================================
+#
+# Message Send to the player when he create the island...
+MSG-CREATE: "§l§a[§e Mine §dPIG §a]§b Tạo SkyBlock thành công"
+#
+# Message when player teleporting to their island..
+MSG-TELEPORT: "§l§aĐã Về Đảo"
+#
+#
+#The title of the acidisland ui /menu
+TITLE-ACIDUI: "§l§9⚫§a Hệ Thống SkyBlock §9⚫"
+#
+#set the description of the acidisland menu
+CONTENT-ACIDUI: ""
+#
+#EXIT BUTTON
+BTN-EXT: "§l§e•§c Exit §e•"
+#
+#CREATE BUTTON
+BTN-CRT: "§l§e•§b Create SkyBlock §e•"
+#
+#TELEPORT BUTTON
+BTN-TP: "§l§e•§b Home SkyBlock §e•"
+#
+#INVITE BUTTON
+BTN-INV: "§l§e•§b Add Helper §e•"
+# 
+#KICK BUTTON
+BTN-OUT: "§l§e•§b Kick Helper §e•"
+#
+#LOCK BUTTON
+BTN-LCK: "§l§e•§b Warp §e•"
+#
+#DELETE BUTTON
+BTN-DLT: "§l§e•§b Danh Sách Đảo §e•"
+#
+#STATISTIC BUTTON
+BTN-BLK: "§l§e•§b Cấp Đảo §e•"
+#
+#LEAVE BUTTON
+BTN-LFT: "§l§e•§b TOP Đảo §e•"
+#
+#==========================================
+#INVITE SECTION:
+#
+TITLE-ADDMEMBER: "§l§9⚫§a Add Helper §9⚫"
+#
+#
+INPUT-ADDMEMBER: "§l§e•§b Nhập tên người chơi:"
+#
+#==========================================
+#KICK SECTION:
+#
+TITLE-KICKMEMBER: "§l§9⚫§a Kick Helper§9 ⚫"
+#
+#
+INPUT-KICKMEMBER: "§l§e•§b Nhập tên người chơi:"
+#
+#==========================================
+#
+#==========================================
+#WARP SECTION:
+#
+TITLE-WARP: "§l§9⚫§a Warp§9 ⚫"
+#
+#
+INPUT-WARP: "§l§e•§b Nhập X;Y (vd: 0;-1) của đảo bạn qua:"
+#
+#==========================================
+...

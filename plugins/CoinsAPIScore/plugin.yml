@@ -1,0 +1,4 @@
+name: SCoinAPIScore
+version: 1.9
+api: 3.0.0
+main: SCoinAPIScore\Main

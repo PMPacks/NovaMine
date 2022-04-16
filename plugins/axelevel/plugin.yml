@@ -1,0 +1,10 @@
+name: AxeLevel
+api: 3.0.0
+main: axelevel\Main
+version: 1.0.0
+author: LetTIHL
+commands:
+  axe:
+    description: "Menu Axe"
+  topriu:
+    description: "Bảng Xếp Hạng Rìu"

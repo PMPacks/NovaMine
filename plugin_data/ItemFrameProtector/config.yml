@@ -1,0 +1,9 @@
+# ------------------------------------------------------
+# ItemFrameProtector by WinterBuild7074 - Config
+# ------------------------------------------------------
+
+# In which worlds should Item Frames be protected?
+ProtectedWorlds:
+- "Spawn"
+- "Shop"
+- "PvP"

@@ -1,0 +1,92 @@
+---
+#Đừng thay đổi cái này
+version: "0.6"
+
+#Hiện form EnchantUI nếu người chơi chạm vào cái bàn phù phép.
+enchanting-table: true
+
+#EnchantUI phiên bản 0.5
+Title: "§l§e•§a Enchant Table §e•"
+Button: "§l§e• §b{NAME} §e•"
+slider-title: "\n§l§6• §aChọn Cấp: §e"
+messages:
+  label: "§l§6↣ §e{PRICE} §aXu §f= §e1 Cấp"
+  not-enough-money: "§l§e↣§a Bạn không có đủ tiền để mua enchant này!"
+  paid-success: "§l§e↣§a Bạn đã mua thành công enchant§e {NAME} §acấp độ§e {LEVEL}§a với §e{PRICE}$"
+  hold-item: "§l§e↣§c Vui lòng cầm vật phẩm trong tay để enchant"
+  no-perm: "§cBạn không có quyền để làm điều này!"
+  incompatible-enchantment:
+  
+#CẢNH BÁO: Chỉ sử dụng ID enchant cho phần incompatible-enchantments, ví dụ: [1,10,13]
+shop:	
+- name: Feather Falling
+  enchantment: 2
+  price: 5000
+  max-level: 10
+  incompatible-enchantments: []
+- name: Blast Protection
+  enchantment: 3
+  price: 5000
+  max-level: 10
+  incompatible-enchantments: []
+- name: Thorns
+  enchantment: thorns
+  price: 5000
+  max-level: 10
+  incompatible-enchantments: []
+- name: Respiration
+  enchantment: respiration
+  price: 5000
+  max-level: 10
+  incompatible-enchantments: []
+- name: Depth Strider
+  enchantment: depth_strider
+  price: 5000
+  max-level: 10
+  incompatible-enchantments: []
+- name: Aqua Affinity
+  enchantment: aqua_affinity
+  price: 5000
+  max-level: 10
+  incompatible-enchantments: []
+- name: Sharpness
+  enchantment: sharpness
+  price: 5000
+  max-level: 10
+  incompatible-enchantments: []
+- name: Knockback
+  enchantment: 2
+  price: 5000
+  max-level: 2
+  incompatible-enchantments: []
+- name: Efficiency
+  enchantment: 15
+  price: 5000
+  max-level: 15
+  incompatible-enchantments: []
+- name: Silk Touch
+  enchantment: 16
+  price: 5000
+  max-level: 1
+  incompatible-enchantments: []
+- name: Unbreaking
+  enchantment: 17
+  price: 5000
+  max-level: 15
+  incompatible-enchantments: []
+- name: Mending
+  enchantment: mending
+  price: 5000
+  max-level: 15
+  incompatible-enchantments: []
+- name: Lure
+  enchantment: lure
+  price: 5000
+  max-level: 15
+  incompatible-enchantments: []
+- name: Flame
+  enchantment: flame
+  price: 5000
+  max-level: 2
+  incompatible-enchantments: []
+...

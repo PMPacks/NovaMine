@@ -1,0 +1,26 @@
+# BackPack v3.1.0
+# By HituilaHuy Form PlayerVaults
+# Edit + Việt Hoá
+# Team CastleVN
+# Facebook: facebook.com/huyyt0911
+# Youtube: HituilaHuy Tv
+# =====================
+# IP: Castlevnpe.ddns.net
+# Port: 19132
+
+# This feature aims to reduce the number of permissions being assigned to
+# each group/player.
+#
+# Example:
+# permissions:
+#   some.permission.here: 12
+#
+# The above permissions configuration will grant players that have the
+# permission "some.permission.here" access to all vaults from 1 to 12
+# (i.e: /tuido 1, /tuido 2, /tuido 3, .../tuido 12)
+
+# Whether to enable permission grouping
+enabled: false
+
+permissions:
+  playervaults.vault.vip: 10

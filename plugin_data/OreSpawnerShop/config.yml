@@ -1,0 +1,17 @@
+---
+#MORE ABOUT ME:
+#github: https://github.com/misael38
+#Instagram: https://instagram.com/misaelimanuell?igshid=9vcjegn0npgg (@misaelimanuell)
+#Discord : Misaelx_#8452
+
+# Spawner Price
+
+coal-price: 100000 #The Coal Ore Spawner Price.
+iron-price: 150000 #The Iron Ore Spawner Price.
+gold-price: 200000 #The Gold Ore Spawner Price.
+diamond-price: 250000 #The Diamond Ore Spawner Price.
+emerald-price: 300000 #The Emerald Ore Spawner Price.
+lapis-price: 150000 #The Lapis Ore Spawner Price.
+redstone-price: 100000 #The Redstone Ore Spawner Price.
+random-price: 200000
+...

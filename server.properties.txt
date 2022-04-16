@@ -1,0 +1,25 @@
+#Properties Config file
+#Fri Nov 5 05:20:32 WIB 2021
+server-ip=0.0.0.0
+server-port=19132
+motd=NovaMine
+white-list=0
+announce-player-achievements=off
+spawn-protection=-1
+max-players=20
+gamemode=0
+force-gamemode=off
+hardcore=off
+pvp=on
+difficulty=2
+generator-settings=
+level-name=NovaMine
+level-seed=
+level-type=VOID
+enable-query=on
+enable-rcon=off
+rcon.password=s1Ox021kfn
+auto-save=on
+view-distance=8
+xbox-auth=off
+language=eng

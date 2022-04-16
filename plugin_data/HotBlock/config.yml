@@ -1,0 +1,60 @@
+#  _   _       _   ____  _            _
+# | | | | ___ | |_| __ )| | ___   ___| | __
+# | |_| |/ _ \| __|  _ \| |/ _ \ / __| |/ /
+# |  _  | (_) | |_| |_) | | (_) | (__|   <
+# |_| |_|\___/ \__|____/|_|\___/ \___|_|\_\
+#
+# (C) 2018 by surva network | https://github.com/survanetwork
+
+# Language of the plugin messages
+# Possible options are: en (English), de (German), fr (French), tr (Turkish)
+language: "en"
+
+# Name of the world where the game is in
+world: "HotBlock"
+
+# How many players must be online that the block is active (prevent that one player is getting coins alone)
+players: 2
+
+# The interval in which should be checked on which block the players are standing (and send messages, give effects, etc.) (in seconds)
+checkspeed: 0.25
+
+# The interval in which coins should be given to the player(s) standing on the HotBlock (in seconds)
+coinspeed: 0.25
+
+# Only give coins when a player is alone on the HotBlock
+onlyplayer: false
+
+# Which effect a player gets when he touches a nether-block
+#
+# Possible values are:
+#  SPEED
+#  SLOWNESS
+#  HASTE
+#  FATIGUE
+#  STRENGTH
+#  INSTANT_HEALTH
+#  INSTANT_DAMAGE
+#  JUMP_BOOST
+#  NAUSEA
+#  REGENERATION
+#  RESISTANCE
+#  FIRE_RESISTANCE
+#  WATER_BREATHING
+#  INVISIBILITY
+#  BLINDNESS
+#  NIGHT_VISION
+#  HUNGER
+#  WEAKNESS
+#  POISON
+#  WITHER
+#  HEALTH_BOOST
+#  ABSORPTION
+#  SATURATION
+#  LEVITATION
+#  FATAL_POISON
+#
+effecttype: "POISON"
+
+# How long the effect should take (in seconds)
+effectduration: 2

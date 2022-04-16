@@ -1,0 +1,19 @@
+---
+ 
+# If you want to add a paragraph then you only have to do 
+# \n at the text then the text one goes down for example: Test\nTest = Test 
+#                                                                     Test 
+# So if you do this twice (\n\n), there's an empty line between the example Test
+ 
+# Here you can switch the Description
+Title: "§l§e•§a Quyền Rank §e•"
+ 
+# Here you can switch the content
+Content: "§l§c↣§a Quyền Coal:\n§l§f- §eFly §a(§6 /fly§a ):§c Bay trên không\n§l§c↣§a Quyền Iron:\n§l§f- §eFly §a(§6 /fly§a ):§c Bay trên không\n§l§f- §eFeed §a(§6 /feed§a ):§c Hồi Thanh Thức Ăn\n§l§c↣§a Quyền Gold:\n§l§f- §eFly §a(§6 /fly§a ):§c Bay trên không\n§l§f- §eFeed §a(§6 /feed§a ):§c Hồi Thanh Thức Ăn\n§l§f- §eHeal §a(§6 /heal§a ):§c Hồi Thanh Máu\n§l§f- §eNick §a(§6 /nick§a ):§c Thay Đổi Tên\n§l§c↣§a Quyền Diamond:\n§l§f- §eFly §a(§6 /fly§a ):§c Bay trên không\n§l§f- §eFeed §a(§6 /feed§a ):§c Hồi Thanh Thức Ăn\n§l§f- §eHeal §a(§6 /heal§a ):§c Hồi Thanh Máu\n§l§f- §eNick §a(§6 /nick§a ):§c Thay Đổi Tên\n§l§f- §eSize §a(§6 /size§a ):§c Thay Đổi Kích Thước\n§l§f- §eSpider §a(§6 /spider§a ):§c Leo Tường\n§l§c↣§a Quyền Emerald:\n§l§f- §eFly §a(§6 /fly§a ):§c Bay trên không\n§l§f- §eFeed §a(§6 /feed§a ):§c Hồi Thanh Thức Ăn\n§l§f- §eHeal §a(§6 /heal§a ):§c Hồi Thanh Máu\n§l§f- §eNick §a(§6 /nick§a ):§c Thay Đổi Tên\n§l§f- §eSize §a(§6 /size§a ):§c Thay Đổi Kích Thước\n§l§f- §eSpider §a(§6 /spider§a ):§c Leo Tường\n§l§f- §eFly §a(§6 /fly§a ):§c Bay trên không\n§l§f- §eVanish §a(§6 /vanish§a ):§c Tàn Hình\n§l§c↣§a Quyền Legend:\n§l§f- §eFly §a(§6 /fly§a ):§c Bay trên không\n§l§f- §eFeed §a(§6 /feed§a ):§c Hồi Thanh Thức Ăn\n§l§f- §eHeal §a(§6 /heal§a ):§c Hồi Thanh Máu\n§l§f- §eNick §a(§6 /nick§a ):§c Thay Đổi Tên\n§l§f- §eSize §a(§6 /size§a ):§c Thay Đổi Kích Thước\n§l§f- §eSpider §a(§6 /spider§a ):§c Leo Tường\n§l§f- §eFly §a(§6 /fly§a ):§c Bay trên không\n§l§f- §eVanish §a(§6 /vanish§a ):§c Tàn Hình\n§l§f- §eTeleport §a(§6 /tp§a ):§c Dịch Chuyển\n§l§c↣§a Quyền Master:\n§l§f- §eFly §a(§6 /fly§a ):§c Bay trên không\n§l§f- §eFeed §a(§6 /feed§a ):§c Hồi Thanh Thức Ăn\n§l§f- §eHeal §a(§6 /heal§a ):§c Hồi Thanh Máu\n§l§f- §eNick §a(§6 /nick§a ):§c Thay Đổi Tên\n§l§f- §eSize §a(§6 /size§a ):§c Thay Đổi Kích Thước\n§l§f- §eSpider §a(§6 /spider§a ):§c Leo Tường\n§l§f- §eFly §a(§6 /fly§a ):§c Bay trên không\n§l§f- §eVanish §a(§6 /vanish§a ):§c Tàn Hình\n§l§f- §eTeleport §a(§6 /tp§a ):§c Dịch Chuyển\n§l§f- §eGamemode S §a(§6 /gms§a ):§c Chuyển Sang Chế Độ Sinh Tồn\n§l§f- §eGamemode C §a(§6 /gmc§a ):§c Chuyển Sang Chế Độ Sáng Tạo"
+ 
+# Here you can switch the text for the Button
+Button: "Submit"
+ 
+# Here you can add if the Player joins that then you have to set it to true
+open_at_first_join: "false"
+...

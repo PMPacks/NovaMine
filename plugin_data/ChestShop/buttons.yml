@@ -1,0 +1,22 @@
+# ChestShop v5.0.0 Config
+turn_left:
+    id: paper
+    damage: 0
+    count: 1
+    name: "&r&l&6<- Sang trái"
+    lore:
+        - "&r&7Quay sang trang bên trái."
+turn_right:
+    id: paper
+    damage: 0
+    count: 1
+    name: "&r&l&6Sang phải ->"
+    lore:
+        - "&r&7Quay sang trang bên phải."
+categories:
+    id: chest
+    damage: 0
+    count: 1
+    name: "&r&l&eXem danh mục"
+    lore:
+        - "&r&7Quay trở lại danh mục."

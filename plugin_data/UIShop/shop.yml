@@ -1,0 +1,141 @@
+# Author: SaltyPixelDevz ♥
+# Translate: Nguyễn Công Danh (NCD) ♥
+# Add Item To Shop: Nguyễn Công Danh (NCD) ♥
+# Facebook: https://www.facebook.com/NguyenCongDanh205
+
+## DO NOT TOUCH (This is for Updates only!)
+shop-version: 1
+# DO NOT TOUCH ^^^^^
+
+#Command Example!!!
+#======================================================================================================
+# Commands:
+#
+#
+#    - "cmd:Sharpness III:100:Console:enchant {player} protection 3:textures/items/stone_sword"
+#            NAME^^^ Price^^^ TYPE^^^            COMMAND^^^^^             PICTURE^^^^^^^
+#
+# Items:
+#
+#   - "268:0:1:250:0:Default:textures/items/wood_sword"
+#
+#   - "ID:META:NUMBER:PRICE(PER ITEM THEY BUY):SELL(PER ITEM THEY SELL):NAME(Defalut OR Custom with §):Picture"
+#
+######## IMPORTANT #########
+#
+#  Next Update Finishes Enchants (Can be Done with Commands!)
+#
+#  NEW!!! We have a Minecraft Texture Library on our Website!
+#         Go to: http://saltypixel.gs/textures after that add the item like this:
+#                   http://saltypixel.ga/textures/blocks/tnt_side.png (You can Send us .png files and we will add them!)
+#                          That would Look like this in use!
+#
+#   - "268:0:1:250:0:Default:http://saltypixel.ha/textures/blocks/tnt_side.png"
+#
+#
+# Developer: AlexPads Team: SaltyPixelDevz! (hub.saltypixel.ga 19132) Join!
+# Người Việt Hóa: Nờ Cờ Dờ (NCD)  | Join Server MCBE: 103.94.16.152 Port: 19132
+#
+#======================================================================================================
+0: # Phải bắt đầu từ 0 và tăng lên một với mỗi danh mục mới bạn thực hiện.
+  Name: "Tools:http://avengetech.me/items/278-0.png" #Có thể sử dụng Màu tùy chỉnh trong Tên bằng Biểu tượng "§"
+  Items:
+    - "310:0:1:300:0:Default:http://avengetech.me/items/310-0.png"
+    - "311:0:1:300:0:Default:http://avengetech.me/items/311-0.png"
+    - "312:0:1:300:0:Default:http://avengetech.me/items/312-0.png"
+    - "313:0:1:300:0:Default:http://avengetech.me/items/313-0.png"
+    - "276:0:1:250:0:Default:http://avengetech.me/items/276-0.png"
+    - "278:0:1:300:0:Default:http://avengetech.me/items/278-0.png"
+    - "279:0:1:300:1:Default:http://avengetech.me/items/279-0.png"
+    - "293:0:1:300:1:Default:http://avengetech.me/items/293-0.png"
+    - "277:0:1:300:1:Default:http://avengetech.me/items/277-0.png"
+    - "261:0:1:350:1:Default:http://avengetech.me/items/261-0.png"
+    - "262:0:1:300:1:Default:http://avengetech.me/items/262-0.png"   
+    - "444:0:1:200000:1:Default:http://avengetech.me/items/444-0.png"       
+1:
+  Name: "Seeds:http://avengetech.me/items/295-0.png"
+  Items:
+    - "6:0:1:100:0:Default:http://avengetech.me/items/6-0.png"
+    - "6:1:1:100:0:Default:http://avengetech.me/items/6-1.png"
+    - "6:2:1:100:0:Default:http://avengetech.me/items/6-2.png"
+    - "6:3:1:100:0:Default:http://avengetech.me/items/6-3.png"
+    - "106:0:1:100:0:Default:http://avengetech.me/items/106-0.png"
+    - "351:15:1:200:0:Default:http://avengetech.me/items/351-15.png"
+    - "361:0:1:100:0:Default:http://avengetech.me/items/361-0.png"
+    - "295:0:1:100:0:Default:http://avengetech.me/items/295-0.png"
+    - "362:0:1:100:0:Default:http://avengetech.me/items/362-0.png"  
+    - "338:0:1:100:0:Default:http://avengetech.me/items/388-0.png"
+    - "32:0:1:100:0:Default:http://avengetech.me/items/32-0.png"
+    - "111:0:1:100:0:Default:http://avengetech.me/items/111-0.png"
+    - "372:0:1:200:0:Default:http://avengetech.me/items/372-0.png"
+    - "458:0:1:100:0:Default:http://avengetech.me/items/458-0.png"
+    - "361:0:1:100:0:Default:http://avengetech.me/items/361-0.png"
+    - "362:0:1:100:0:Default:http://avengetech.me/items/362-0.png"    
+2:
+  Name: "Blocks:http://avengetech.me/items/2-0.png"
+  Items:
+    - "1:0:1:60:1.3:Default:http://avengetech.me/items/1-0.png"
+    - "2:0:1:60:1.3:Default:http://avengetech.me/items/2-0.png"
+    - "3:0:1:60:0.5:Default:http://avengetech.me/items/3-0.png"
+    - "4:0:1:60:0.5:Default:http://avengetech.me/items/4-0.png"
+    - "12:0:1:60:2:Default:http://avengetech.me/items/12-0.png"
+    - "20:0:1:70:2:Default:http://avengetech.me/items/20-0.png"
+    - "35:0:1:90:1.3:Default:http://avengetech.me/items/35-0.png"
+    - "12:1:1:60:1.5:Default:http://avengetech.me/items/12-1.png"
+    - "8:0:1:0:0.0:Default:http://avengetech.me/items/8-0.png"  
+    - "87:0:1:120:0.0:Default:http://avengetech.me/items/87-0.png"
+    - "45:0:1:150:1.3:Default:http://avengetech.me/items/45-0.png"    
+    - "121:0:1:130:0.0:Default:http://avengetech.me/items/121-0.png"    
+    - "165:0:1:230:0.0:Default:http://avengetech.me/items/165-0.png"   
+    - "169:0:1:200:0.0:Default:http://avengetech.me/items/169-0.png"  
+    - "82:0:1:120:0.0:Default:http://avengetech.me/items/82-0.png"        
+    - "88:0:1:120:0.0:Default:http://avengetech.me/items/88-0.png"    
+    - "215:0:1:230:0.0:Default:http://avengetech.me/items/215-0.png" 
+    - "130:0:1:6000:0.0:Default:http://avengetech.me/items/130-0.png"     
+    - "80:0:1:60:0.0:Default:http://avengetech.me/items/80-0.png"   
+    - "89:0:1:120:0.0:Default:http://avengetech.me/items/89-0.png"    
+    - "30:0:1:200:0.0:Default:http://avengetech.me/items/30-0.png"         
+    - "17:0:1:70:2:Default:http://avengetech.me/items/17-0.png"    
+    - "17:1:1:70:2:Default:http://avengetech.me/items/17-1.png"
+    - "17:2:1:70:2:Default:http://avengetech.me/items/17-2.png"
+    - "17:3:1:70:2:Default:http://avengetech.me/items/17-3.png"
+    - "17:4:1:70:2:Default:http://avengetech.me/items/17-4.png"
+    - "17:5:1:70:2:Default:http://avengetech.me/items/17-5.png"
+    - "13:0:1:60:2:Default:http://avengetech.me/items/13-0.png"
+    - "138:0:1:6000:2:Default:http://avengetech.me/items/138-0.png"
+    - "220:0:1:1000:2:Default:http://avengetech.me/items/220-0.png"
+    - "222:0:1:1000:2:Default:http://avengetech.me/items/222-0.png"    
+    - "219:0:1:1000:2:Default:http://avengetech.me/items/219-0.png"
+    - "228:0:1:1000:2:Default:http://avengetech.me/items/228-0.png"  
+    - "235:0:1:1000:2:Default:http://avengetech.me/items/235-0.png"    
+3:
+  Name: "Foods:http://avengetech.me/items/364-0.png"
+  Items:
+    - "364:0:1:150:2:Default:http://avengetech.me/items/364-0.png"
+    - "366:0:1:50:1:Default:http://avengetech.me/items/366-0.png"
+    - "297:0:1:50:2:Default:http://avengetech.me/items/297-0.png"
+    - "320:0:1:50:1:Default:http://avengetech.me/items/320-0.png"
+    - "412:0:1:50:1:Default:http://avengetech.me/items/412-0.png"
+    - "424:0:1:50:1:Default:http://avengetech.me/items/424-0.png"
+    - "322:0:1:400:1:Default:http://avengetech.me/items/322-0.png"    
+    - "260:0:1:50:1:Default:http://avengetech.me/items/424-0.png"
+4:
+  Name: "Colors:http://avengetech.me/items/351-1.png"
+  Items:
+    - "351:1:1:50:1:Default:http://avengetech.me/items/351-1.png"
+    - "351:11:1:50:1:Default:http://avengetech.me/items/351-11.png"
+    - "351:14:1:50:1:Default:http://avengetech.me/items/351-14.png"
+    - "351:10:1:50:1:Default:http://avengetech.me/items/351-10.png"
+    - "351:7:1:50:1:Default:http://avengetech.me/items/351-7.png"
+    - "351:8:1:50:1:Default:http://avengetech.me/items/351-8.png"
+    - "351:16:1:50:1:Default:http://avengetech.me/items/351-16.png"
+    - "351:17:1:50:1:Default:http://avengetech.me/items/351-17.png"
+    - "351:19:1:50:1:Default:http://avengetech.me/items/351-19.png"
+    - "351:6:1:50:1:Default:http://avengetech.me/items/351-6.png"
+    - "351:9:1:50:1:Default:http://avengetech.me/items/351-9.png"
+    - "351:12:1:50:1:Default:http://avengetech.me/items/351-12.png"
+    - "351:13:1:50:1:Default:http://avengetech.me/items/351-13.png"
+    - "351:2:1:50:1:Default:http://avengetech.me/items/351-2.png"
+    - "351:5:1:50:1:Default:http://avengetech.me/items/351-5.png"
+    - "351:18:1:50:1:Default:http://avengetech.me/items/351-18.png"
+    - "351:4:1:50:1:Default:http://avengetech.me/items/351-4.png"

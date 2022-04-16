@@ -1,0 +1,5 @@
+name: NapThe
+author: phuongaz
+main: phuongaz\NapThe\Loader
+api: 3.21.0
+version: 0.1

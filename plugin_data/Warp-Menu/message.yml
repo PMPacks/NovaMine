@@ -1,0 +1,19 @@
+---
+Title: §l§bMenu §cDịch §aChuyển§r
+Teleported: §5Bạn đang được dịch chuyển!...
+Warp-Add: |-
+  §a§lThêm Thành công!
+  §r§7Warp đó đã được thêm vào danh sách!
+Warp-Delete: |-
+  §c§lXoá Thành Công!
+  §r§7Warp đó đã được xoá khỏi danh sách!
+Warp-Exist: |-
+  §c§lLỗi!
+  §r§7Đã tồn tại 1 Warp với tên đó!
+Warp-Not-Exist: |-
+  §c§lLỗi!
+  §r§7Warp không tồn tại!
+No-Warp: |-
+  §c§lLỗi!
+  §r§7Không có Warp!
+...

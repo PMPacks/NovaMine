@@ -1,0 +1,17 @@
+#Tiempo para Teletransportarse
+
+####################
+Count: 5
+####################
+
+#Mensaje al teletransportarse
+
+####################
+Tp_msg: §l§6[§bиσναмιиє §aиєтωσяк§6]§f ↣§a Bạn đã chở về Lobby
+####################
+
+#Mensaje durante el teletransporte
+
+####################
+Tp_fast_msg: §l§6[§bиσναмιиє §aиєтωσяк§6]§f ↣§a Chuẩn Bị Dịch Chuyển Về Lobby
+####################

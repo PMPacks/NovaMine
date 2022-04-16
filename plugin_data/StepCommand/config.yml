@@ -1,0 +1,18 @@
+# StepCommand Configuration File
+# Version 1.0.3
+
+# Use {player} for player name and {world} for world the player is in
+
+# Numeric ID of the block
+block-id: 214
+# Command executor [console / player]
+executor: "console"
+# Command that is executed, use {player} for player name and {world} for world the player is in.
+command: "kill {player}"
+
+# MutliWorld support [true / false]
+multiworld-enabled: true
+# Worlds where the execution is enabled (You must specify at least 2 worlds!)
+enabled-worlds:
+  - "Nhay"
+  - "skyblock"

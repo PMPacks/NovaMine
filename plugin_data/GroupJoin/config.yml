@@ -1,0 +1,28 @@
+# GroupJoin config
+
+# Hides the join message for all groups not set in this file
+hide-other: false
+
+# Messages per group
+groups:
+  Admin:
+    join: " §l§e•§6 ADMIN §e{player}§a Đã Vào Máy Chủ"
+    leave: "§l§e•§6 ADMIN {player} §cĐã Thoát Máy Chủ"
+  Owner:
+    join: " §l§e•§d Chủ server §e{player}§a Đã Vào Máy Chủ"
+    leave: "§l§e•§d Chủ server {player} §cĐã Thoát Máy Chủ"
+  VIP1:
+    join: " §l§e•§b Đại Gia §e{player} §dVIP§6 1§a Đã Vào Máy Chủ"
+    leave: "§l§e•§b Đại Gia§e {player} §d VIP §61§cĐã Thoát Máy Chủ"
+  VIP2:
+    join: " §l§e•§b Đại Gia §e{player} §dVIP§6 2§a Đã Vào Máy Chủ"
+    leave: "§l§e•§b Đại Gia§e {player} §d VIP §62§cĐã Thoát Máy Chủ"
+  VIP3:
+    join: " §l§e•§b Đại Gia §e{player} §dVIP§6 3§a Đã Vào Máy Chủ"
+    leave: "§l§e•§b Đại Gia§e {player} §d VIP §63§cĐã Thoát Máy Chủ"
+  VIP4:
+    join: " §l§e•§b Đại Gia §e{player} §dVIP§6 4§a Đã Vào Máy Chủ"
+    leave: "§l§e•§b Đại Gia§e {player} §d VIP §64§cĐã Thoát Máy Chủ"
+  VIP5:
+    join: " §l§e•§b Đại Gia §e{player} §dVIP§6 5§a Đã Vào Máy Chủ"
+    leave: "§l§e•§b Đại Gia§e {player} §d VIP §65§cĐã Thoát Máy Chủ"

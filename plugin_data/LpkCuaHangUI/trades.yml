@@ -1,0 +1,92 @@
+#
+#
+#  Config Trade
+# Example:
+#           |"1":     
+#           |   Button: Example Trade
+#           |   support: 
+#           |       money: "true|false"
+#           |       point: "true|false"
+#           |   price:
+#           |       money: <price>
+#           |       point: <price>
+#           |   New-Item:
+#           |       Id: id:meta:count
+#           |       Name: Name Item
+#           |       Lore: Lore Item
+#           |   Enchantments:
+#           |       Id: ID enchantment
+#           |       Level: Level Enchantment
+#           |   Content: Content Trade
+"1":
+  Button: "§l§e•§a Kiếm §cLong Thần §e•"
+  support:
+    money: "true"
+    coin: "false"
+  price:
+    money: 500000
+    coin: 0 
+  New-Item:
+    Id: "276:0:1"
+    Name: "§l§e•§a Kiếm §cLong Thần §e•"
+    Lore: "§l§f⚫§b Độ Bền: §e✰ ✰ ✰ §f✰ ✰\n§l§f⚫§b Độ Hiếm: §e✰ ✰ §f✰ ✰ ✰\n§l§f⚫§b Sát Thương: §e✰ ✰ §f✰ ✰ ✰\n§l§f⚫§e Lưu Ý:§b Vật phẩm bị mất admin không chịu trách nhiệm"
+  Enchantments:
+    1:
+        Id: "sharpness"
+        Level: 70
+    2:
+        Id: "protection"
+        Level: 100
+    3:
+        Id: "fire_aspect"
+        Level: 20
+    4:
+        Id: "unbreaking"
+        Level: 30
+    5:
+        Id: "autorepair"
+        Level: 1
+  Content: "§l§c•§a Bạn có đồng ý mua §l§e•§a Kiếm §cLong Thần §e• §akhông\n§l§c⚫§a Gía: §e500.000Xu\n§l§c⚫§a Enchant:\n§l§f↣§a Sharpness: 70\n§l§f↣§a Protection: 100\n§l§f↣§a Fire Aspect: 20\n§l§f↣§a Unbreaking: 30\n§l§f↣§a Autoreapair: 1"
+"2":
+  Button: "§l§e•§a Cúp §cĐiện Tử §e•"
+  support:
+    money: "true"
+    coin: "false"
+  price:
+    money: 500000
+    coin: 0 
+  New-Item:
+    Id: "278:0:1"
+    Name: "§l§e•§a Cúp §cĐiện Tử §e•"
+    Lore: "§l§f⚫§b Độ Bền: §e✰ ✰ §f✰ ✰ ✰\n§l§f⚫§b Độ Hiếm: §e✰ ✰§f ✰ ✰ ✰\n§l§f⚫§b Tốc Độ Đào: §e✰ ✰ ✰ ✰ §f✰\n§l§f⚫§e Lưu Ý:§b Vật phẩm bị mất admin không chịu trách nhiệm"
+  Enchantments:
+    1:
+        Id: "efficiency"
+        Level: 40
+    2:
+        Id: "unbreaking"
+        Level: 20
+    3:
+        Id: "haste"
+        Level: 2
+    4:
+        Id: "autorepair"
+        Level: 1
+  Content: "§l§c•§a Bạn có đồng ý mua §l§e•§a Cúp §cĐiện Tử §e• §akhông\n§l§c⚫§a Gía: §e500.000Xu\n§l§c⚫§a Enchant:\n§l§f↣§a Efficiency: 40\n§l§f↣§a Unbreaking: 20\n§l§f↣§a Haste: 2\n§l§f↣§a Autorepair: 1"
+"3":
+  Button: "§l§e•§a Gậy §cKnockback §e•"
+  support:
+    money: "true"
+    coin: "false"
+  price:
+    money: 50000
+    point: 0 
+  New-Item:
+    Id: "280:0:1"
+    Name: "§l§e•§a Gậy §cKnockback §e•"
+    Lore: "§l§c↣§a Gậy Này Được Bán Từ Chợ Đen"
+  Enchantments:
+    1:
+        Id: "knockback"
+        Level: 50
+  Content: "§l§c•§a Bạn có đồng ý mua §l§e•§a Gậy §cKnockback §e• §akhông\n§l§c⚫§a Gía: §e50.000Xu\n§l§c⚫§a Enchant:\n§l§f↣§a Knockback: 50"

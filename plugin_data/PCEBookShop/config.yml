@@ -1,0 +1,22 @@
+# PCEBookShop Configuration File
+
+# Version Việt Hoá
+# Việt Hoá By HituilaHuy
+# Team CastleVN
+
+economy:
+  # Có Thể Sử Dụng: economyapi, multieconomy, xp
+  provider: economyapi
+  # Nếu Sử Dụng MultiEconomy Thì Hãy Ghi Giá Trị
+  multieconomy-currency: ""
+
+# Giá Bán Của Sách CustomEnchant
+cost:
+  common: 100000
+  uncommon: 300000
+  rare: 500000
+  mythic: 1000000
+
+# CustomEnchant Bị Loại Bỏ
+excluded-enchants:
+  - "placeholder"

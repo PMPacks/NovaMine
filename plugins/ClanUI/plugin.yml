@@ -1,0 +1,10 @@
+name: Clan
+version: 1.9.5
+main: Clan\Main
+api: 3.0.0
+author: NovaStark1245
+commands:
+ quandoan:
+  description: "Mở Menu Quân Đoàn"
+ qd:
+  description: "Chat Nhanh Quân Đoàn"

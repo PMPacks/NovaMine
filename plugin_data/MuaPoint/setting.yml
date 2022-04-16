@@ -1,0 +1,13 @@
+#MuaPointUI Config
+# Thêm màu mè nếu bạn muốn, mình không rành về điều đó :vvv
+
+price: 150000 #Giá 1 point tính theo money
+
+msg:
+  buy-done: "§l§6[§bиσναмιиє §aиєтωσяк§6]§f ↣§a Bạn đã mua thành công §e{coin}§e Coin§a với giá 150.000Xu"
+  buy-fail: "§l§6[§bиσναмιиє §aиєтωσяк§6]§f ↣§a Bạn không đủ tiền để mua coin bạn cần {price}Xu để mua!"
+  null-input: " §l§6[§bиσναмιиє §aиєтωσяк§6]§f ↣§c Vui lòng nhập số coin bạn cần mua"
+  not-numeric-input: "§l§6[§bиσναмιиє §aиєтωσяк§6]§f ↣§c Phải là số!"
+form:
+  title: "§l§e•§c BUY Coin §e•"
+  input: "§l§c↣§c Nhập số coin:"

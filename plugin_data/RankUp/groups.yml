@@ -1,0 +1,54 @@
+---
+groups:
+  Coal:
+    entrance:
+    - setgroup {name} Coal
+    exit: []
+    perms: []
+    members:
+      1: NhiCute2k41233
+      2: Kynvn1234
+      3: FreeformCandy65
+      4: ditconmemay0411
+  Iron:
+    entrance:
+    - setgroup {name} Iron
+    exit: []
+    perms: []
+    members:
+    - Bip8333
+  Gold:
+    entrance:
+    - setgroup {name} Gold
+    exit: []
+    perms: []
+    members: []
+  Diamond:
+    entrance:
+    - setgroup {name} Diamond
+    exit: []
+    perms: []
+    members: []
+  Emerald:
+    entrance:
+    - setgroup {name} Emerald
+    exit: []
+    perms: []
+    members: []
+  Legend:
+    entrance:
+    - setgroup {name} Legend
+    exit: []
+    perms: []
+    members: []
+  Master:
+    entrance:
+    - setgroup {name} Master
+    exit: []
+    perms: []
+    members:
+    - LocDz2k9
+    - Death Gaming830
+    - heropcgaming65
+    - ThaiNoPro6215
+...

@@ -1,0 +1,2314 @@
+---
+# DO NOT EDIT THIS VALUE.
+# ONLY FOR INTERNAL USE.
+crates-version: 1
+
+# IMPORTANT NOTE:
+# To reward the player with a command make sure that the meta of the reward is same as
+# commandMeta set in config.yml or else the command won't work.
+#
+# Note(s):
+# - Please use tabs instead of spaces.
+# - You can add infinite many crates to your server just follow the example below.
+# - Use "§" for adding colors.
+# - The headings/keys marked with (OPTIONAL) means that you don't need to add them. The item will work just fine even if its not there.
+crates:
+# EXAMPLE CONFIGURATION.
+# ------------------------
+# crate-name:             | Set the name of the crate.
+#  drops:                 | List the items that can be received from the crate.
+#   - name: "G-Helmet"    | Custom name for the item. (OPTIONAL).
+#     id: 1               | ID of the reward.
+#     meta: 0             | Meta or Damage value of the Item.
+#     amount: 1           | The amount of Item that player receives.
+#     enchantments:       | Set enchants for items here. Both VanillaEnchantments and PiggyCustomEnchants are supported. (OPTIONAL).
+#       protection:       | Name of enchant you wish to apply.
+#         level: 3        | The level for enchant.
+#       unbreaking:       | You can set multiple enchants as long as they are registered.
+#         level: 2        | NOTE: If you don't want enchants simply remove the enchantments heading.
+#     lore: "USE ME"      | Add a custom lore to the reward. Use "\n" for next line. (OPTIONAL).
+#     commands:           | Add commands to execute when player wins a reward. Multiple commands supported. (OPTIONAL).
+#     - "say hi"          | Use \"%PLAYER%\" to insert player name (with the quotes and slash).
+#     - "say test"        | Don't forget to mention the maxCommands in config.yml.
+#  block: "911:0"         | Set the block ID you want the crate to represent. Placing a chest on it will activate the crate.
+#  broadcast:             | Want to broadcast a message when a player opens a crate?
+#   enable: true          | Set this to true to enable broadcasts and false to disable broadcasts.
+#   command: "say hi"     | The command the executes when a player opens a crate.
+# ------------------------
+
+  common:
+    drops:
+      - id: 152
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 1
+        meta: 0
+        amount: 32
+      - id: 1
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 3
+        meta: 0
+        amount: 32
+      - id: 3
+        meta: 0
+        amount: 32
+      - id: 3
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 2
+        meta: 0
+        amount: 32
+      - id: 2
+        meta: 0
+        amount: 32
+      - id: 2
+        meta: 0
+        amount: 32
+      - id: 6
+        meta: 0
+        amount: 5
+      - id: 6
+        meta: 0
+        amount: 5
+      - id: 6
+        meta: 0
+        amount: 5
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 295
+        meta: 0
+        amount: 8
+      - id: 295
+        meta: 0
+        amount: 8
+      - id: 295
+        meta: 0
+        amount: 8
+      - id: 295
+        meta: 0
+        amount: 8
+      - id: 338
+        meta: 0
+        amount: 8
+      - id: 338
+        meta: 0
+        amount: 8
+      - id: 338
+        meta: 0
+        amount: 8
+      - id: 338
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 12
+        meta: 0
+        amount: 32
+      - id: 12
+        meta: 0
+        amount: 32
+      - id: 12
+        meta: 0
+        amount: 32
+      - id: 12
+        meta: 0
+        amount: 32
+      - id: 41
+        meta: 0
+        amount: 5
+      - id: 41
+        meta: 0
+        amount: 5
+      - name: "§6M§1E§aM§eE§r"
+        id: 294
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 1
+        lore: "§6Meme Luôn Quanh Ta :/"
+      - name: "§l§aKiếm §dTân Binh§r"
+        id: 267
+        meta: 0
+        amount: 1
+        enchantments:
+          sharpness:
+            level: 2
+          unbreaking:
+            level: 2
+          mending:
+            level: 1
+          vampire:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §6Vampire §d(§eLV 1§d)§6: Hút Máu Của Kẻ Thù\n§d§oĐộ Bền: §e■□□□□□□□□□\n§d§oSát Thương: §a■□□□□□□□□□\n§6§oCó Khả Năng Hồi Phục Lại Kha Khá Độ Bền Nhờ Exp Của Quái §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §fCommon §6Và Nhận Được §l§aKiếm §dTân Binh §6(Cấp 1)."
+      - name: "§lCung §dTân Binh§r"
+        id: 261
+        meta: 0
+        amount: 1
+        enchantments:
+          power:
+            level: 2
+          unbreaking:
+            level: 2
+          punch:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền: §e■□□□□□□□□□\n§d§oSát Thương: §a■□□□□□□□□□\n§6§oLàm Bật Lùi Đối Phương Ở Cự Ly Sát §8(Nội Tại Phụ)§r"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §fCommon §6Và Nhận Được §lCung §dTân Binh§r."
+      - name: "§lGiày §dTân Binh§r"
+        id: 305
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 2
+          unbreaking:
+            level: 2
+          feather_falling:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền:§e ■□□□□□□□□□\n§d§oSức Bảo Vệ: §a■□□□□□□□□□\n§6§oCó Khả Năng Giảm Một Chút Sát Thương Khi Rơi §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §fCommon §6Và Nhận Được §lGiày §dTân Binh§r."
+      - name: "§lÁo §dTân Binh§r"
+        id: 303
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 2
+          unbreaking:
+            level: 2
+          thorns:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền: §e■□□□□□□□□□\n§d§oSức Bảo Vệ: §a■□□□□□□□□□\n§6§oCó Khả Năng Gây 1 Chút Sát Thuơng Cho Những Người Đánh Bạn §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §fCommon §6Và Nhận Được §lÁo §dTân Binh§r."
+      - name: "§lCúp §dTân Binh§r"
+        id: 257
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 2
+          unbreaking:
+            level: 2
+          fortune:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền:§e ■□□□□□□□□□\n§d§oTốc Độ Đào: §a■□□□□□□□□□\n§6§oCó Tỉ Lệ Cực Nhỏ Nhân Đôi Số Lượng Vật Phẩm Mà Bạn Đào Từ Quặng §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §fCommon §6Và Nhận Được §lCúp §dTân Binh§r."
+      - name: "§lQuần §dTân Binh§r"
+        id: 304
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 2
+          unbreaking:
+            level: 2
+          thorns:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền: §e■□□□□□□□□□\n§d§oSức Bảo Vệ:§a ■□□□□□□□□□\n§6§oCó Khả Năng Gây 1 Chút Sát Thuơng Cho Những Người Đánh Bạn §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §fCommon §6Và Nhận Được §lQuần §dTân Binh§r."
+      - name: "§lMũ §dTân Binh§r"
+        id: 302
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 2
+          unbreaking:
+            level: 2
+          respiration:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền:§e ■□□□□□□□□□\n§d§oSức Bảo Vệ: §a■□□□□□□□□□\n§6§oCó Khả Năng Tăng 1 Chút Thời Gian Thở Dưới Nước §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §fCommon §6Và Nhận Được §lMũ §dTân Binh§r."
+      - name: "§lRìu §dTân Binh§r"
+        id: 258
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 2
+          unbreaking:
+            level: 2
+          knockback:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền: §e■□□□□□□□□□\n§d§oTốc Độ Đào: §a■□□□□□□□□□\n§6§oCó Khả Năng Đánh Lùi Người Chơi Và Quái Ở Cự Li Nhỏ §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §fCommon §6Và Nhận Được §lRìu §dTân Binh§r."
+      - name: "§lXẻng §dTân Binh§r"
+        id: 256
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 2
+          unbreaking:
+            level: 2
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền: §e■□□□□□□□□□□\n§d§oTốc Độ Đào: §a■□□□□□□□□□\n§c§oKhông Có Nội Tại Phụ"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §fCommon §6Và Nhận Được §lXẻng §dTân Binh§r."
+      - name: "§lCuốc §dTân Binh§r"
+        id: 292
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 2
+        lore: "§l§e-=§c☯§e=- §cKhông Hỗ Trợ\n§d§oĐộ Bền:§e ■□□□□□□□□□\n§c§oKhông Hỗ Trợ"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §fCommon §6Và Nhận Được §lCuốc §dTân Binh§r."
+      - name: "§l§620,000$"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "givemoney \"%PLAYER%\" 20000"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §fCommon §6Và Nhận Được §a$20,000."
+      - name: "§l§eCúp §dQuân Vương 彡"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 6
+          unbreaking:
+            level: 6
+          fortune:
+            level: 3
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền:§e ■■■□□□□□□□\n§d§oTốc Độ Đào:§a ■■■□□□□□□□\n§6§oCó Tỉ Lệ Cực Cao Nhân Đôi Số Lượng Vật Phẩm Mà Bạn Đào Từ Quặng §8(Nội Tại Phụ)\n\n§r§o§7Cúp độc quyền được lưu truyền 300 năm về trước."
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §fcommon §6Và Nhận Được §l§eCúp §dQuân Vương 彡."
+      - name: "§l§c○✠○ Thanh §4Côn §eKiếm ○✠○"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          autorepair:
+            level: 5
+          lightning:
+            level: 5
+          sharpness:
+            level: 35
+          unbreaking:
+            level: 35
+          knockback:
+            level: 5
+          fire_aspect:
+            level: 5
+        lore: "§l§e-=§c☯§e=- §6AutoRepair §d(§eLV 5§d)§6: Tự Sửa Chữa Vật Phẩm§6\n§l§e-=§c☯§e=- §6LightNing §d(§eLV 5§d)§6: Tạo Ra Tia Sét Khi Tấn Công Kẻ Thù§6\n§d§oSát Thương:§e ■■■■■■■■■■■\n§d§oĐộ Bền:§a ■■■■■■■■■■■\n§6§oGây Cháy Đối Phương §8(Nội Tại Phụ)§r\n§6§l§oLàm Bật Lùi Đối Phương §8(Nội Tại Phụ)§r\n\n§r§o§7Vua của vinh quang."
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §fCommon §6Và Nhận Được §l§c○✠○ Thanh §4Côn §eKiếm ○✠○."
+    block: "173:0"
+    broadcast:
+      enable: true
+      command: "say §l§b\"%PLAYER%\" §l§6Đã Mở Crate §fCommon §6Tại §e/warp crate"
+  uncommon:
+    drops:
+      - id: 152
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 1
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 3
+        meta: 0
+        amount: 32
+      - id: 3
+        meta: 0
+        amount: 32
+      - id: 3
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 2
+        meta: 0
+        amount: 32
+      - id: 2
+        meta: 0
+        amount: 32
+      - id: 2
+        meta: 0
+        amount: 32
+      - id: 6
+        meta: 0
+        amount: 7
+      - id: 6
+        meta: 0
+        amount: 7
+      - id: 6
+        meta: 0
+        amount: 7
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 295
+        meta: 0
+        amount: 8
+      - id: 295
+        meta: 0
+        amount: 8
+      - id: 295
+        meta: 0
+        amount: 8
+      - id: 295
+        meta: 0
+        amount: 8
+      - id: 338
+        meta: 0
+        amount: 8
+      - id: 338
+        meta: 0
+        amount: 8
+      - id: 338
+        meta: 0
+        amount: 8
+      - id: 338
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 12
+        meta: 0
+        amount: 32
+      - id: 12
+        meta: 0
+        amount: 32
+      - id: 12
+        meta: 0
+        amount: 32
+      - id: 12
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 8
+      - id: 4
+        meta: 0
+        amount: 8
+      - id: 4
+        meta: 0
+        amount: 8
+      - id: 41
+        meta: 0
+        amount: 8
+      - id: 41
+        meta: 0
+        amount: 8
+      - id: 41
+        meta: 0
+        amount: 8
+      - name: "§lCung §bCường Hóa§r"
+        id: 261
+        meta: 0
+        amount: 1
+        enchantments:
+          power:
+            level: 4
+          unbreaking:
+            level: 4
+          mending:
+            level: 2
+          flame:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền: §e■■□□□□□□□□\n§d§oSát Thương: §a■■□□□□□□□□\n§6§oCó Khả Năng Hồi Phục Ít Độ Bền Nhờ Exp Của Quái §8(Nội Tại Phụ)\n§6§oKhả Năng Gây Cháy Đối Phương §8(Nội Tại Phụ)§r"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §aUncommon §6Và Nhận Được §l§fCung §bCường Hóa§r."
+      - name: "§l§66,000$"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "givemoney \"%PLAYER%\" 66000"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §aUncommon §6Và Nhận Được §a$66,000."
+      - name: "§l§aKiếm §dThợ Săn§6 (Cấp 1)§r"
+        id: 267
+        meta: 0
+        amount: 1
+        enchantments:
+          sharpness:
+            level: 4
+          unbreaking:
+            level: 4
+          mending:
+            level: 2
+          fire_aspect:
+            level: 2
+          knockback:
+            level: 2
+          gooey:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §aGooey §d(§eLV1§d)§a: §eLàm Kẻ Thù Bay Lên Không Trung\n§d§oĐộ Bền:§e ■■□□□□□□□□\n§d§oĐộ Sắc: §a■■□□□□□□□□\n§6§oCó Khả Năng Hồi Phục Lại Nhiều Độ Bền Nhờ Exp Của Quái §8(Nội Tại Phụ)\n§6§oGây Cháy Và Làm Bật Lùi Đối Phương §8(Nội Tại Phụ)§r"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §aUncommon §6Và Nhận Được §l§aKiếm §dThợ Săn§6 (Cấp 1)§r."
+      - name: "§lMũ §bChiến §dSĩ§r"
+        id: 306
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 4
+          unbreaking:
+            level: 4
+          feather_falling:
+            level: 3
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền: §e■■□□□□□□□□\n§d§oSức Bảo Vệ: §a■■□□□□□□□□\n§6§oCó Khả Năng Giảm Kha Khá Sát Thương Khi Rơi §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §Uncommon §6Và Nhận Được §lMũ §bChiến §dSĩ§r."
+      - name: "§lÁo §bChiến §dSĩ§r"
+        id: 307
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 4
+          unbreaking:
+            level: 4
+          thorns:
+            level: 2
+          mending:
+            level: 2
+          selfdestruct:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §bSelfdestruct §d(§eLV1§d)§b: §eTạo Ra 1 Quả TNT Khi Bạn Chết\n§d§oĐộ Bền: §e■■□□□□□□□□\n§d§oSức Bảo Vệ: §a■■□□□□□□□□\n§6§oCó Khả Năng Gây Ít Sát Thuơng Cho Những Người Đánh Bạn §8(Nội Tại Phụ)\n§o§6 Khả Năng Hồi Phục Lại Ít Độ Bền Nhờ Exp Của Quái §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §Uncommon §6Và Nhận Được §lÁo §bChiến §dSĩ§r."
+      - name: "§lQuần §bChiến §dSĩ§r"
+        id: 308
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 4
+          unbreaking:
+            level: 4
+          thorns:
+            level: 2
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền: §e■■□□□□□□□□\n§d§oSức Bảo Vệ: §a■■□□□□□□□□\n§6§oCó Khả Năng Gây Ít Sát Thuơng Cho Những Người Đánh Bạn §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §aUncommon §6Và Nhận Được §lQuần §bChiến §dSĩ§r."
+      - name: "§lGiày §bChiến §dSĩ§r"
+        id: 309
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 4
+          unbreaking:
+            level: 4
+          feather_falling:
+            level: 3
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền: §e■■□□□□□□□□\n§d§oSức Bảo Vệ: §e■■□□□□□□□□\n§6§oCó Khả Năng Giảm Kha Khá Sát Thương Khi Rơi §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §aUncommon §6Và Nhận Được §lGiày §bChiến §dSĩ§r."
+      - name: "§lCúp §bThợ §aMỏ§r"
+        id: 257
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 4
+          unbreaking:
+            level: 4
+          fortune:
+            level: 3
+          haste:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §bHaste §d(§eLV1§d)§b: Tăng Tốc Độ Đào Của Bạn\n§d§oĐộ Bền: §e■■□□□□□□□□\n§d§oTốc Độ Đào: §a■■□□□□□□□□\n§6§oCó Tỉ Lệ Ít Nhân Đôi Số Lượng Vật Phẩm Mà Bạn Đào Từ Quặng §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §aUncommon §6Và Nhận Được §lCúp §bThợ §aMỏ§r."
+      - name: "§lRìu §bTiều §aPhu§r"
+        id: 258
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 4
+          unbreaking:
+            level: 4
+          knockback:
+            level: 3
+          vampire:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §4Vampire §d(§eLV1§d)§4: Hút 1 Ít Máu Của Người Chơi\n§d§oĐộ Bền:§e ■■□□□□□□□□\n§d§oTốc Độ Đào: §a■■□□□□□□□□\n§6§oCó Khả Năng Đánh Lùi Người Chơi Và Quái Trong Cự Ly Gần §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §aUncommon §6Và Nhận Được §lRìu §bTiều §aPhu§r."
+      - name: "§lXẻng §bThợ §aMỏ§r"
+        id: 256
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 4
+          unbreaking:
+            level: 2
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền: §e■□□□□□□□□□\n§d§oTốc Độ Đào: ■■□□□□□□□□§a\n§c§oKhông Có Nội Tại Phụ"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §aUncommon §6Và Nhận Được §lXẻng §bThợ §aMỏ§r."
+      - name: "§6M§1E§aM§eE§r"
+        id: 278
+        meta: 50
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 1
+        lore: "§6Hề Trúa, Thánh Trôn,...."
+      - id: 3
+        meta: 0
+        amount: 64
+      - name: "§l§eCúp §dQuân Vương 彡"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 6
+          unbreaking:
+            level: 6
+          fortune:
+            level: 3
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền:§e ■■■□□□□□□□\n§d§oTốc Độ Đào:§a ■■■□□□□□□□\n§6§oCó Tỉ Lệ Cực Cao Nhân Đôi Số Lượng Vật Phẩm Mà Bạn Đào Từ Quặng §8(Nội Tại Phụ)\n\n§r§o§7Cúp độc quyền được lưu truyền 300 năm về trước."
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §aUncommon §6Và Nhận Được §l§eCúp §dQuân Vương 彡."
+      - name: "§l§c○✠○ Thanh §4Côn §eKiếm ○✠○"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          autorepair:
+            level: 5
+          lightning:
+            level: 5
+          sharpness:
+            level: 35
+          unbreaking:
+            level: 35
+          knockback:
+            level: 5
+          fire_aspect:
+            level: 5
+        lore: "§l§e-=§c☯§e=- §6AutoRepair §d(§eLV 5§d)§6: Tự Sửa Chữa Vật Phẩm§6\n§l§e-=§c☯§e=- §6LightNing §d(§eLV 5§d)§6: Tạo Ra Tia Sét Khi Tấn Công Kẻ Thù§6\n§d§oSát Thương:§e ■■■■■■■■■■■\n§d§oĐộ Bền:§a ■■■■■■■■■■■\n§6§oGây Cháy Đối Phương §8(Nội Tại Phụ)§r\n§6§l§oLàm Bật Lùi Đối Phương §8(Nội Tại Phụ)§r\n\n§r§o§7Vua của vinh quang."
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §aUncommon §6Và Nhận Được §l§c○✠○ Thanh §4Côn §eKiếm ○✠○."
+    block: "42:0"
+    broadcast:
+      enable: true
+      command: "say §l§b\"%PLAYER%\" §l§dĐã Mở Crate §aUncommon §dTại §e/warp crate"
+  vote:
+    drops:
+      - id: 152
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 1
+        meta: 0
+        amount: 48
+      - id: 1
+        meta: 0
+        amount: 48
+      - id: 4
+        meta: 0
+        amount: 48
+      - id: 4
+        meta: 0
+        amount: 48
+      - id: 4
+        meta: 0
+        amount: 48
+      - id: 3
+        meta: 0
+        amount: 48
+      - id: 3
+        meta: 0
+        amount: 48
+      - id: 3
+        meta: 0
+        amount: 48
+      - id: 4
+        meta: 0
+        amount: 48
+      - id: 2
+        meta: 0
+        amount: 48
+      - id: 2
+        meta: 0
+        amount: 48
+      - id: 2
+        meta: 0
+        amount: 48
+      - id: 6
+        meta: 0
+        amount: 10
+      - id: 6
+        meta: 0
+        amount: 10
+      - id: 6
+        meta: 0
+        amount: 10
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 295
+        meta: 0
+        amount: 12
+      - id: 295
+        meta: 0
+        amount: 12
+      - id: 295
+        meta: 0
+        amount: 12
+      - id: 295
+        meta: 0
+        amount: 12
+      - id: 338
+        meta: 0
+        amount: 12
+      - id: 338
+        meta: 0
+        amount: 12
+      - id: 338
+        meta: 0
+        amount: 12
+      - id: 338
+        meta: 0
+        amount: 12
+      - id: 362
+        meta: 0
+        amount: 12
+      - id: 362
+        meta: 0
+        amount: 12
+      - id: 362
+        meta: 0
+        amount: 12
+      - id: 362
+        meta: 0
+        amount: 12
+      - id: 12
+        meta: 0
+        amount: 48
+      - id: 12
+        meta: 0
+        amount: 48
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 12
+        meta: 0
+        amount: 48
+      - id: 12
+        meta: 0
+        amount: 48
+      - id: 88
+        meta: 0
+        amount: 16
+      - id: 88
+        meta: 0
+        amount: 16
+      - id: 42
+        meta: 0
+        amount: 16
+      - id: 42
+        meta: 0
+        amount: 16
+      - id: 42
+        meta: 0
+        amount: 16
+      - id: 42
+        meta: 0
+        amount: 16
+      - id: 41
+        meta: 0
+        amount: 16
+      - id: 41
+        meta: 0
+        amount: 16
+      - id: 3
+        meta: 0
+        amount: 64
+      - id: 3
+        meta: 0
+        amount: 64
+      - name: "§c§lMảnh §eHổ §aĐao §6(Cấp 5)§r"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          sharpness:
+            level: 6
+          unbreaking:
+            level: 6
+          mending:
+            level: 5
+          fire_aspect:
+            level: 4
+          knockback:
+            level: 4
+          Lightning:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §6Lightning §d(§eLV1§d)§6: 10% Tỉ Lệ Đánh Ra Sấm Sét\n§d§oĐộ Bền: §e■■■□□□□□□□\n§d§oĐộ Sắc:§a ■■■□□□□□□□\n§6§oCó Khả Năng Hồi Phục Lại Khá Nhiều Độ Bền Nhờ Exp Của Quái §8(Nội Tại Phụ)\n§6§oGây Cháy Và Làm Bật Lùi Đối Phương §8(Nội Tại Phụ)§r"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §eVote §6Và Nhận Được §c§lMảnh §eHổ §aĐao §6(Cấp 5)§r."
+      - name: "§c§lMũ §eLong §aThần§r"
+        id: 310
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 6
+          unbreaking:
+            level: 6
+          feather_falling:
+            level: 4
+          grow:
+            level: 2
+        lore: "§l§e-=§c☯§e=- §6Grow §d(§eLV 2§d)§6: Tăng Kích Thước Khi Ngồi Lén Lút\n§l§cChú Ý: §fCần Phải Mặc Full Set Long Thần Để Kích Hoạt\n§d§oĐộ Bền: §e■■■□□□□□□□\n§d§oSức Bảo Vệ: §a■■■□□□□□□□\n§6§oCó Khả Năng Giảm Khá Nhiều Sát Thương Khi Rơi §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §eVote §6Và Nhận Được §c§lMũ §eLong §aThần§r."
+      - name: "§l§cÁo §eLong §aThần§r"
+        id: 311
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 6
+          unbreaking:
+            level: 6
+          thorns:
+            level: 4
+          mending:
+            level: 4
+          grow:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §6Grow §d(§eLV 2§d)§6: Tăng Kích Thước Ngồi Lén Lút\n§l§cChú Ý: §fCần Phải Mặc Full Set Long Thần Để Kích Hoạt\n§d§oĐộ Bền: §e■■■□□□□□□□\n§d§oSức Bảo Vệ:§a ■■■□□□□□□□\n§6§oCó Khả Năng Gây Ít Sát Thuơng Cho Những Người Đánh Bạn §8(Nội Tại Phụ)\n§o§6Khả Năng Hồi Phục Lại Khá Ít Độ Bền Nhờ Exp Của Quái §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §eVote§6Và Nhận Được §c§lÁo §eLong §aThần§r."
+      - name: "§l§cQuần §eLong §aThần§r"
+        id: 312
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 6
+          unbreaking:
+            level: 6
+          thorns:
+            level: 4
+          grow:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §6Grow §d(§eLV 1§d)§6: Tăng Kích Thước Khi Ngồi Lén Lút\n§l§cChú Ý: §fCần Phải Mặc Full Set Long Thần Để Kích Hoạt\n§d§oĐộ Bền: §e■■■□□□□□□□\n§d§oSức Bảo Vệ:§a ■■■□□□□□□□\n§6§oCó Khả Năng Gây Ít Sát Thương Cho Người Đánh Bạn §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §eVote §6Và Nhận Được §l§cQuần §eLong §aThần§r."
+      - name: "§l§cGiày §eLong §aThần§r"
+        id: 313
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 6
+          unbreaking:
+            level: 6
+          feather_falling:
+            level: 4
+          grow:
+            level: 2
+        lore: "§l§e-=§c☯§e=- §6Grow §d(§eLV 2§d)§6: Tăng Kích Thước Khi Ngồi Lén Lút\n§l§cChú Ý: §fCần Phải Mặc Full Set Long Thần Để Kích Hoạt\n§d§oĐộ Bền:§e ■■■□□□□□□□\n§d§oSức Bảo Vệ:§a ■■■□□□□□□□\n§6§oCó Khả Năng Giảm Kha Khá Sát Thương Khi Rơi §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §eVote §6Và Nhận Được §c§lGiày §eLong §aThần§r."
+      - name: "§l§eCúp §4Hổ Thần"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 6
+          unbreaking:
+            level: 6
+          fortune:
+            level: 3
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền:§e ■■■□□□□□□□\n§d§oTốc Độ Đào:§a ■■■□□□□□□□\n§6§oCó Tỉ Lệ Cực Cao Nhân Đôi Số Lượng Vật Phẩm Mà Bạn Đào Từ Quặng §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §eVote §6Và Nhận Được §l§eCúp §4Hổ Thần."
+      - name: "§l§eRìu §4Hổ Thần"
+        id: 279
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 6
+          unbreaking:
+            level: 6
+          knockback:
+            level: 5
+          blind:
+            level: 2
+        lore: "§l§e-=§c☯§e=- §6Blind §d(§eLV 2§d)§6: Làm Cho Kẻ Thù Bị Mù\n§d§oĐộ Bền: §e■■■□□□□□□□\n§d§oTốc Độ Đào:§a ■■■□□□□□□□\n§6§oCó Khả Năng Đánh Lùi Người Chơi Và Quái Ở Cự Ly Khá Xa §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §eVote §6Và Nhận Được §l§eRìu §4Hổ Thần."
+      - name: "§l§eXẻng §4Hổ Thần"
+        id: 277
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 6
+          unbreaking:
+            level: 6
+          oxygenate:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §aOxygenate §d(§eLV 1§d)§a: Thở Được Dưới Nước Khi Cầm Vật Phẩm Này\n§d§oĐộ Bền:§e ■■■□□□□□□□\n§d§oTốc Độ Đào:§a ■■■□□□□□□□\n§c§oKhông Hỗ Trợ"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §eVote §6Và Nhận Được §l§eXẻng §4Hổ Thần."
+      - name: "§6M§1E§aM§eE§r"
+        id: 278
+        meta: 50
+        amount: 69
+        enchantments:
+          unbreaking:
+            level: 1
+        lore: "§6Stonk Hoặc Stink"
+      - name: "§l§eKey §eVote"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "key vote \"%PLAYER%\" 1"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §eVote §6Và Nhận Được §l§eKey §eVote."
+      - name: "§c§lMảnh §eHổ §aCung §6(Cấp 3)§r"
+        id: 261
+        meta: 0
+        amount: 1
+        enchantments:
+          power:
+            level: 6
+          unbreaking:
+            level: 6
+          mending:
+            level: 4
+          flame:
+            level: 4
+          punch:
+            level: 4
+          paralyze:
+            level: 2
+        lore: "§l§e-=§c☯§e=- §6Paralyze §d(§eLV 2§d)§6: Cung Cấp Sự Chậm Chạp, Mù ​​Quáng Và Buồn Nôn Cho Kẻ Thù\n§d§oĐộ Bền:§e ■■■□□□□□□□\n§d§oSát Thương:§a ■■■□□□□□□□\n§6§oCó Khả Năng Hồi Phục Lại Nhiều Độ Bền Nhờ Exp Của Quái §8(Nội Tại Phụ)\n§6§oGây Cháy Và Làm Bật Lùi Đối Phương Ở Cự Ly Khá Xa §8(Nội Tại Phụ)§r"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §eVote §6Và Nhận Được §c§lMảnh §eHổ §aCung §6(Cấp 3)§r."
+      - name: "§l§695,000$"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "givemoney \"%PLAYER%\" 95000"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §eVote §6Và Nhận Được §a$95,000."
+      - name: "§l§eCúp §dQuân Vương 彡"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 6
+          unbreaking:
+            level: 6
+          fortune:
+            level: 3
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền:§e ■■■□□□□□□□\n§d§oTốc Độ Đào:§a ■■■□□□□□□□\n§6§oCó Tỉ Lệ Cực Cao Nhân Đôi Số Lượng Vật Phẩm Mà Bạn Đào Từ Quặng §8(Nội Tại Phụ)\n\n§r§o§7Cúp độc quyền được lưu truyền 300 năm về trước."
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §eVote §6Và Nhận Được §l§eCúp §dQuân Vương 彡."
+      - name: "§l§c○✠○ Thanh §4Côn §eKiếm ○✠○"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          autorepair:
+            level: 5
+          lightning:
+            level: 5
+          sharpness:
+            level: 35
+          unbreaking:
+            level: 35
+          knockback:
+            level: 5
+          fire_aspect:
+            level: 5
+        lore: "§l§e-=§c☯§e=- §6AutoRepair §d(§eLV 5§d)§6: Tự Sửa Chữa Vật Phẩm§6\n§l§e-=§c☯§e=- §6LightNing §d(§eLV 5§d)§6: Tạo Ra Tia Sét Khi Tấn Công Kẻ Thù§6\n§d§oSát Thương:§e ■■■■■■■■■■■\n§d§oĐộ Bền:§a ■■■■■■■■■■■\n§6§oGây Cháy Đối Phương §8(Nội Tại Phụ)§r\n§6§l§oLàm Bật Lùi Đối Phương §8(Nội Tại Phụ)§r\n\n§r§o§7Vua của vinh quang."
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §eVote §6Và Nhận Được §l§c○✠○ Thanh §4Côn §eKiếm ○✠○."
+    block: "41:0"
+    broadcast:
+      enable: true
+      command: "say §l§b\"%PLAYER%\" §l§dĐã Mở Crate §eVote §dTại §e/warp crate"
+  mythic:
+    drops:
+      - id: 152
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 1
+        meta: 0
+        amount: 64
+      - id: 1
+        meta: 0
+        amount: 8
+      - id: 4
+        meta: 0
+        amount: 64
+      - id: 4
+        meta: 0
+        amount: 64
+      - id: 4
+        meta: 0
+        amount: 64
+      - id: 3
+        meta: 0
+        amount: 64
+      - id: 3
+        meta: 0
+        amount: 64
+      - id: 3
+        meta: 0
+        amount: 64
+      - id: 4
+        meta: 0
+        amount: 64
+      - id: 2
+        meta: 0
+        amount: 64
+      - id: 2
+        meta: 0
+        amount: 64
+      - id: 2
+        meta: 0
+        amount: 64
+      - id: 6
+        meta: 0
+        amount: 24
+      - id: 6
+        meta: 0
+        amount: 24
+      - id: 6
+        meta: 0
+        amount: 24
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 17
+        meta: 0
+        amount: 32
+      - id: 17
+        meta: 0
+        amount: 32
+      - id: 17
+        meta: 0
+        amount: 32
+      - id: 17
+        meta: 0
+        amount: 32
+      - id: 295
+        meta: 0
+        amount: 24
+      - id: 295
+        meta: 0
+        amount: 24
+      - id: 295
+        meta: 0
+        amount: 24
+      - id: 295
+        meta: 0
+        amount: 24
+      - id: 338
+        meta: 0
+        amount: 24
+      - id: 338
+        meta: 0
+        amount: 24
+      - id: 338
+        meta: 0
+        amount: 24
+      - id: 338
+        meta: 0
+        amount: 24
+      - id: 362
+        meta: 0
+        amount: 24
+      - id: 362
+        meta: 0
+        amount: 24
+      - id: 362
+        meta: 0
+        amount: 24
+      - id: 362
+        meta: 0
+        amount: 24
+      - id: 12
+        meta: 0
+        amount: 64
+      - id: 12
+        meta: 0
+        amount: 64
+      - id: 12
+        meta: 0
+        amount: 64
+      - id: 12
+        meta: 0
+        amount: 64
+      - id: 88
+        meta: 0
+        amount: 32
+      - id: 88
+        meta: 0
+        amount: 32
+      - id: 42
+        meta: 0
+        amount: 32
+      - id: 42
+        meta: 0
+        amount: 32
+      - id: 42
+        meta: 0
+        amount: 32
+      - id: 42
+        meta: 0
+        amount: 32
+      - id: 41
+        meta: 0
+        amount: 32
+      - id: 41
+        meta: 0
+        amount: 32
+      - id: 41
+        meta: 0
+        amount: 32
+      - id: 41
+        meta: 0
+        amount: 32
+      - id: 152
+        meta: 0
+        amount: 32
+      - id: 152
+        meta: 0
+        amount: 32
+      - id: 152
+        meta: 0
+        amount: 32
+      - id: 152
+        meta: 0
+        amount: 32
+      - id: 152
+        meta: 0
+        amount: 32
+      - id: 57
+        meta: 0
+        amount: 32
+      - id: 57
+        meta: 0
+        amount: 32
+      - id: 57
+        meta: 0
+        amount: 32
+      - name: "§c§lKiếm §6Rồng §5Thần§r"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          sharpness:
+            level: 10
+          unbreaking:
+            level: 10
+          mending:
+            level: 7
+          fire_aspect:
+            level: 7
+          poison:
+            level: 3
+        lore: "§l§e-=§c☯§e=- §6Poison §d(§eLV3§d)§6: Làm Cho Kẻ Địch Dính Độc Khi Bị Bạn Tấn Công\n§d§oĐộ Bền:§e ■■■■■□□□□□\n§d§oĐộ Sắc:§a ■■■■■□□□□□\n§6§oCó Khả Năng Hồi Phục Lại Nhiều Độ Bền Nhờ Exp Của Quái §8(Nội Tại Phụ)\n§6§oGây Cháy Đối Phương §8(Nội Tại Phụ)§r"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §4Mythic §6Và Nhận Được §c§lKiếm §6Rồng §5Thần§r."
+      - name: "§c§lÁo §6Rồng §5Thần§r"
+        id: 311
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 10
+          unbreaking:
+            level: 10
+          thorns:
+            level: 8
+          obsidianshield:
+            level: 2
+        lore: "§l§e-=§c☯§e=- §6ObsidianShield§d(§eLV 2§d)§6: Khi Mặc Áo Này Vào Sẽ Có Hiệu Ứng Chống Lửa\n§d§oĐộ Bền:§e ■■■■■□□□□□\n§d§oSức Bảo Vệ:§a ■■■■■□□□□□\n§6§oCó Khả Năng Gây Nhiều Sát Thương Cho Người Đánh Bạn§8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §4Mythic §6Và Nhận Được §c§lÁo §6Rồng §5Thần§r."
+      - name: "§c§lGiày §6Rồng §5Thần§r"
+        id: 313
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 10
+          unbreaking:
+            level: 8
+          feather_falling:
+            level: 6
+          jetpack:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §6Jetpack §d(§eLV 2§d)§6: Cho Bạn Khả Năng Bay (Ngồi để bật/tắt)\n§d§oĐộ Bền:§e ■■■■□□□□□□\n§d§oSức Bảo Vệ:§a ■■■■■□□□□□\n§6§oCó Khả Năng Giảm Nhiều Sát Thương Khi Rơi §8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §4Mythic §6Và Nhận Được §c§lGiày §6Rồng §5Thần§r."
+      - name: "§c§lQuần §6Rồng §5Thần§r"
+        id: 312
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 10
+          unbreaking:
+            level: 10
+          autorepair:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §6Autorepair §d(§eLV 1§d)§6: Tự Hồi Phục Độ Bền\n§d§oĐộ Bền:§e ■■■■■□□□□□\n§d§oSức Bảo Vệ: §a■■■■■□□□□□\n§c§oKhông Có Nội Tại Phụ"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §4Mythic §6Và Nhận Được §c§lQuần §6Rồng §5Thần§r."
+      - name: "§c§lMũ §6Rồng §5Thần§r"
+        id: 310
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 10
+          unbreaking:
+            level: 10
+          meditation:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §6Meditation §d(§eLV 1§d)§6: Hồi Máu Và Độ Đói Khi Đứng Yên Trong 20 Giây\n§d§oĐộ Bền:§e ■■■■■□□□□□\n§d§oSức Bảo Vệ:§a ■■■■■□□□□□\n§c§oKhông Có Nội Tại Phụ"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §4Mythic §6Và Nhận Được §c§lMũ §eLong §aThần§r."
+      - name: "§c§lCúp §6Rồng §5Thần§r"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 10
+          unbreaking:
+            level: 10
+          autorepair:
+            level: 1
+          driller:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §6Driller §d(§eLV 1§d)§6: Khi Đào Block Sẽ Tạo 1 Ô 3x3\n§l§e-=§c☯§e=- §6AutoRepair §d(§eLV 1§d)§6: Tự Hồi Phục Độ Bền\n§d§oĐộ Bền: §e■■■■■□□□□□\n§d§oTốc Độ Đào:§a ■■■■■□□□□□\n§c§oKhông Có Nội Tại Phụ"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §4Mythic §6Và Nhận Được §c§lCúp §6Rồng §5Thần§r."
+      - name: "§c§lRìu §6Rồng §5Thần§r"
+        id: 279
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 10
+          unbreaking:
+            level: 10
+          lumberjack:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §6Lumberjack §d(§eLV 1§d)§6: Khi Chặt Gỗ Sẽ Tự Động Rơi Hết Block Gỗ\n§d§oĐộ Bền:§e ■■■■■□□□□□\n§d§oTốc Độ Đào:§a ■■■■■□□□□□\n§c§oKhông Có Nội Tại Phụ"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §4Mythic §6Và Nhận Được §c§lRìu §6Rồng §5Thần."
+      - name: "§c§lXẻng §6Rồng §5Thần"
+        id: 277
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 10
+          unbreaking:
+            level: 10
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền:§e ■■■■■□□□□□\n§d§oTốc Độ Đào:§a ■■■■■□□□□□\n§c§oKhông Có Nội Tại Phụ"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §4Mythic §6Và Nhận Được §c§lXẻng §6Rồng §5Thần."
+      - name: "§c§lMảnh §eHổ §aCung §6(Cấp 6)§r"
+        id: 261
+        meta: 0
+        amount: 1
+        enchantments:
+          power:
+            level: 9
+          unbreaking:
+            level: 10
+          mending:
+            level: 7
+          flame:
+            level: 8
+          punch:
+            level: 8
+          paralyze:
+            level: 2
+          headhunter:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §6Paralyze §d(§eLV 2§d)§6: Cung Cấp Sự Chậm Chạp, Mù ​​Quáng Và Buồn Nôn Cho Kẻ Thù\n§l§e-=§c☯§e=- §6Headhunter §d(§eLV 1§d)§6: Tăng Nhiều Sát Thương Khi Bắn Trúng Đầu\n§d§oĐộ Bền:§e ■■■■■□□□□□\n§d§oSát Thương:§a ■■■■■□□□□□\n§6§oCó Khả Năng Hồi Phục Lại Nhiều Độ Bền Nhờ Exp Của Quái §8(Nội Tại Phụ)\n§6§oGây Cháy Và Làm Bật Lùi Đối Phương Ở Cự Ly Khá Xa §8(Nội Tại Phụ)§r"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §4Mythic§6Và Nhận Được §c§lMảnh §eHổ §aCung §6(Cấp 5)§r."
+      - id: 264
+        meta: 0
+        amount: 16
+      - id: 388
+        meta: 0
+        amount: 16
+      - id: 3
+        meta: 0
+        amount: 64
+      - id: 3
+        meta: 0
+        amount: 64
+      - name: "§l§eKey §4Mythic"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "key mythic \"%PLAYER%\" 1"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §4Mythic §6Và Nhận Được §l§eKey §4Mythic."
+      - id: 322
+        meta: 0
+        amount: 16
+      - name: "§l§6160,000$"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "givemoney \"%PLAYER%\" 160000"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §4Mythic §6Và Nhận Được §a$160,000."
+      - name: "§l§eCúp §dQuân Vương 彡"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 6
+          unbreaking:
+            level: 6
+          fortune:
+            level: 3
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền:§e ■■■□□□□□□□\n§d§oTốc Độ Đào:§a ■■■□□□□□□□\n§6§oCó Tỉ Lệ Cực Cao Nhân Đôi Số Lượng Vật Phẩm Mà Bạn Đào Từ Quặng §8(Nội Tại Phụ)\n\n§r§o§7Cúp độc quyền được lưu truyền 300 năm về trước."
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §4Mythic §6Và Nhận Được §l§eCúp §dQuân Vương 彡."
+      - name: "§l§c○✠○ Thanh §4Côn §eKiếm ○✠○"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          autorepair:
+            level: 5
+          lightning:
+            level: 5
+          sharpness:
+            level: 35
+          unbreaking:
+            level: 35
+          knockback:
+            level: 5
+          fire_aspect:
+            level: 5
+        lore: "§l§e-=§c☯§e=- §6AutoRepair §d(§eLV 5§d)§6: Tự Sửa Chữa Vật Phẩm§6\n§l§e-=§c☯§e=- §6LightNing §d(§eLV 5§d)§6: Tạo Ra Tia Sét Khi Tấn Công Kẻ Thù§6\n§d§oSát Thương:§e ■■■■■■■■■■■\n§d§oĐộ Bền:§a ■■■■■■■■■■■\n§6§oGây Cháy Đối Phương §8(Nội Tại Phụ)§r\n§6§l§oLàm Bật Lùi Đối Phương §8(Nội Tại Phụ)§r\n\n§r§o§7Vua của vinh quang."
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §4Mythic §6Và Nhận Được §l§c○✠○ Thanh §4Côn §eKiếm ○✠○."
+    block: "57:0"
+    broadcast:
+      enable: true
+      command: "say §l§b\"%PLAYER%\" §l§dĐã Mở Crate §4Mythic §dTại §e/warp crate"
+  legendary:
+    drops:
+      - name: "§l§e---§d=== §c§lMũ §5Ma §dVương 宋§r§l§d ===§e---§r"
+        id: 310
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 14
+          unbreaking:
+            level: 14
+          autorepair:
+            level: 2
+          meditation:
+            level: 3
+        lore: "§l§e-=§c☯§e=- §6Meditation§d(§eLV 3§d)§6: Tăng máu và thức ăn nếu đứng yên 20s\n§l§e-=§c☯§e=- §6AutoRepair§d(§eLV 2§d)§6: Tự sửa độ bền của giáp\n§d§oĐộ Bền:§e ■■■■■■■□□□\n§d§oSức Bảo Vệ:§a ■■■■■■■□□□\n§c§oKhông có nội tại phụ"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6Legendary §6Và Nhận Được §l§e---§d=== §c§lMũ §5Ma §dVương 宋§r§l§d ===§e---§r."
+      - name: "§l§e---§d=== §c§lÁo §5Ma §dVương 宋§r§l§d ===§e---§r"
+        id: 311
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 14
+          unbreaking:
+            level: 14
+          thorns:
+            level: 10
+          autorepair:
+            level: 4
+          berserker:
+            level: 4
+        lore: "§l§e-=§c☯§e=- §6Berserker§d(§eLV 4§d)§6: Tăng sức mạnh nếu máu còn dưới 30%\n§l§e-=§c☯§e=- §6AutoRepair§d(§eLV 4§d)§6: Tự sửa độ bền của giáp\n§d§oĐộ Bền:§e ■■■■■■■□□□\n§d§oSức Bảo Vệ:§a ■■■■■■■□□□\n§6§oCó Khả Năng Gây Nhiều Sát Thương Cho Người Đánh Bạn§8(Nội Tại Phụ)"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6Legendary §6Và Nhận Được §l§e---§d=== §c§lÁo §5Ma §dVương 宋§r§l§d ===§e---§r."
+      - name: "§l§e---§d=== §c§lQuần §5Ma §dVương 宋§r§l§d ===§e---§r"
+        id: 312
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 14
+          unbreaking:
+            level: 14
+          autorepair:
+            level: 2
+          overload:
+            level: 2
+        lore: "§l§e-=§c☯§e=- §6Overload§d(§eLV 2§d)§6: Tăng máu khoảng 20 - 40%\n§l§e-=§c☯§e=- §6AutoRepair§d(§eLV 2§d)§6: Tự sửa độ bền của giáp\n§d§oĐộ Bền:§e ■■■■■■■□□□\n§d§oSức Bảo Vệ:§a ■■■■■■■□□□\n§c§oKhông có nội tại phụ"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6Legendary §6Và Nhận Được §l§e---§d=== §c§lQuần §5Ma §dVương 宋§r§l§d ===§e---§r."
+      - name: "§l§e---§d=== §c§lGiày §5Ma §dVương 宋§r§l§d ===§e---§r"
+        id: 313
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 14
+          unbreaking:
+            level: 14
+          autorepair:
+            level: 2
+        lore: "§l§e-=§c☯§e=- §6AutoRepair§d(§eLV 2§d)§6: Tự sửa độ bền của giáp\n§d§oĐộ Bền:§e ■■■■■■■□□□\n§d§oSức Bảo Vệ:§a ■■■■■■■□□□\n§c§oKhông có nội tại phụ"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6Legendary §6Và Nhận Được §l§e---§d=== §c§lGiày §5Ma §dVương 宋§r§l§d ===§e---§r."
+      - id: 1
+        meta: 0
+        amount: 8
+      - id: 4
+        meta: 0
+        amount: 64
+      - id: 4
+        meta: 0
+        amount: 64
+      - id: 4
+        meta: 0
+        amount: 64
+      - id: 3
+        meta: 0
+        amount: 64
+      - id: 152
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 3
+        meta: 0
+        amount: 64
+      - id: 3
+        meta: 0
+        amount: 64
+      - id: 3
+        meta: 0
+        amount: 64
+      - id: 3
+        meta: 0
+        amount: 64
+      - id: 4
+        meta: 0
+        amount: 64
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 2
+        meta: 0
+        amount: 64
+      - id: 2
+        meta: 0
+        amount: 64
+      - id: 2
+        meta: 0
+        amount: 64
+      - id: 6
+        meta: 0
+        amount: 32
+      - id: 6
+        meta: 0
+        amount: 32
+      - id: 152
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 6
+        meta: 0
+        amount: 32
+      - id: 17
+        meta: 0
+        amount: 64
+      - id: 17
+        meta: 0
+        amount: 64
+      - id: 17
+        meta: 0
+        amount: 64
+      - id: 17
+        meta: 0
+        amount: 64
+      - id: 295
+        meta: 0
+        amount: 64
+      - id: 295
+        meta: 0
+        amount: 64
+      - id: 295
+        meta: 0
+        amount: 64
+      - id: 295
+        meta: 0
+        amount: 64
+      - id: 338
+        meta: 0
+        amount: 64
+      - id: 338
+        meta: 0
+        amount: 64
+      - id: 338
+        meta: 0
+        amount: 64
+      - id: 338
+        meta: 0
+        amount: 64
+      - id: 362
+        meta: 0
+        amount: 64
+      - id: 362
+        meta: 0
+        amount: 64
+      - id: 362
+        meta: 0
+        amount: 64
+      - id: 362
+        meta: 0
+        amount: 64
+      - id: 12
+        meta: 0
+        amount: 64
+      - id: 12
+        meta: 0
+        amount: 64
+      - id: 12
+        meta: 0
+        amount: 64
+      - id: 12
+        meta: 0
+        amount: 64
+      - id: 88
+        meta: 0
+        amount: 64
+      - id: 88
+        meta: 0
+        amount: 64
+      - id: 88
+        meta: 0
+        amount: 64
+      - id: 42
+        meta: 0
+        amount: 64
+      - id: 42
+        meta: 0
+        amount: 64
+      - id: 42
+        meta: 0
+        amount: 64
+      - id: 42
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 152
+        meta: 0
+        amount: 64
+      - id: 152
+        meta: 0
+        amount: 64
+      - id: 152
+        meta: 0
+        amount: 64
+      - id: 152
+        meta: 0
+        amount: 64
+      - id: 152
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - name: "§l§eKey §6Legendary"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "key legendary \"%PLAYER%\" 1"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6Legendary §6Và Nhận Được §l§eKey §6Legendary."
+      - name: "§l§6390,000$"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "givemoney \"%PLAYER%\" 390000"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6Legendary §6Và Nhận Được §a$390,000."
+      - name: "§l§c༄§6❖ §l§bThủy Thần §fCung §6❖ §c࿐§r"
+        id: 261
+        meta: 0
+        amount: 1
+        enchantments:
+          power:
+            level: 14
+          unbreaking:
+            level: 14
+          mending:
+            level: 10
+          flame:
+            level: 11
+          punch:
+            level: 10
+          piercing:
+            level: 4
+          headhunter:
+            level: 3
+        lore: "§l§e-=§c☯§e=- §6Piercing §d(§eLV 4§d)§6: Xuyên Giáp Tăng Khi Bắn Vào Đối Thủ\n§l§e-=§c☯§e=- §6Headhunter §d(§eLV 3§d)§6: Tăng Nhiều Sát Thương Khi Bắn Trúng Đầu\n§d§oĐộ Bền:§e ■■■■■■■□□□\n§d§oSát Thương:§a ■■■■■■■□□□\n§6§oCó Khả Năng Hồi Phục Lại Nhiều Độ Bền Nhờ Exp Của Quái §8(Nội Tại Phụ)\n§6§oGây Cháy Và Làm Bật Lùi Đối Phương Ở Cự Ly Khá Xa §8(Nội Tại Phụ)§r\n\n§r§o§7Vua dành cho các tay thiện xạ"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6Legendary §6Và Nhận Được §l§4༄§6❖ §l§bThủy Thần §fCung§6❖ §4࿐§r."
+      - name: "§l§c༄§6❖ §l§bThủy Thần §fCung §6❖ §c࿐§r"
+        id: 261
+        meta: 0
+        amount: 1
+        enchantments:
+          power:
+            level: 14
+          unbreaking:
+            level: 14
+          mending:
+            level: 10
+          flame:
+            level: 11
+          punch:
+            level: 10
+          piercing:
+            level: 4
+          headhunter:
+            level: 3
+        lore: "§l§e-=§c☯§e=- §6Piercing §d(§eLV 4§d)§6: Xuyên Giáp Tăng Khi Bắn Vào Đối Thủ\n§l§e-=§c☯§e=- §6Headhunter §d(§eLV 3§d)§6: Tăng Nhiều Sát Thương Khi Bắn Trúng Đầu\n§d§oĐộ Bền:§e ■■■■■■■□□□\n§d§oSát Thương:§a ■■■■■■■□□□\n§6§oCó Khả Năng Hồi Phục Lại Nhiều Độ Bền Nhờ Exp Của Quái §8(Nội Tại Phụ)\n§6§oGây Cháy Và Làm Bật Lùi Đối Phương Ở Cự Ly Khá Xa §8(Nội Tại Phụ)§r\n\n§r§o§7Vua dành cho các tay thiện xạ"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6Legendary §6Và Nhận Được §l§4༄§6❖ §l§bThủy Thần §fCung§6❖ §4࿐§r."
+      - name: "§l§e---§d=== §c§lKiếm §5Ma §dVương 宋§r§l§d ===§e---§r"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          sharpness:
+            level: 16
+          unbreaking:
+            level: 16
+          mending:
+            level: 10
+          fire_aspect:
+            level: 10
+          poison:
+            level: 4
+          poisonouscloud:
+            level: 3
+        lore: "§l§e-=§c☯§e=- §6Poison §d(§eLV4§d)§6: Làm Cho Kẻ Địch Dính Độc Khi Bị Bạn Tấn Công\n§l§e-=§c☯§e=- §6PoisonousCloud §d(§eLV 3§d)§6: Tạo Ra Một Đám Mây Độc Và Khiến Cho Kẻ Địch Bị Độc Khi Vào Đó\n§d§oĐộ Bền:§e ■■■■■■■■□□\n§d§oĐộ Sắc:§a ■■■■■■■■□□\n§6§oCó Khả Năng Hồi Phục Lại Nhiều Độ Bền Nhờ Exp Của Quái §8(Nội Tại Phụ)\n§6§oGây Cháy Đối Phương §8(Nội Tại Phụ)§r\n\n§r§o§7Đệ nhất là ta."
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6Legendary §6Và Nhận Được §l§e---§d=== §c§lKiếm §5Ma §dVương 宋§r§l§d ===§e---§r."
+      - name: "§l§eCúp §dQuân Vương 彡"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 6
+          unbreaking:
+            level: 6
+          fortune:
+            level: 3
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền:§e ■■■□□□□□□□\n§d§oTốc Độ Đào:§a ■■■□□□□□□□\n§6§oCó Tỉ Lệ Cực Cao Nhân Đôi Số Lượng Vật Phẩm Mà Bạn Đào Từ Quặng §8(Nội Tại Phụ)\n\n§r§o§7Cúp độc quyền được lưu truyền 300 năm về trước."
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6Legendary §6Và Nhận Được §l§eCúp §dQuân Vương 彡."
+      - name: "§l§c○✠○ Thanh §4Côn §eKiếm ○✠○"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          autorepair:
+            level: 5
+          lightning:
+            level: 5
+          sharpness:
+            level: 35
+          unbreaking:
+            level: 35
+          knockback:
+            level: 5
+          fire_aspect:
+            level: 5
+        lore: "§l§e-=§c☯§e=- §6AutoRepair §d(§eLV 5§d)§6: Tự Sửa Chữa Vật Phẩm§6\n§l§e-=§c☯§e=- §6LightNing §d(§eLV 5§d)§6: Tạo Ra Tia Sét Khi Tấn Công Kẻ Thù§6\n§d§oSát Thương:§e ■■■■■■■■■■■\n§d§oĐộ Bền:§a ■■■■■■■■■■■\n§6§oGây Cháy Đối Phương §8(Nội Tại Phụ)§r\n§6§l§oLàm Bật Lùi Đối Phương §8(Nội Tại Phụ)§r\n\n§r§o§7Vua của vinh quang."
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6Legendary §6Và Nhận Được §l§c○✠○ Thanh §4Côn §eKiếm ○✠○."
+    block: "133:0"
+    broadcast:
+      enable: true
+      command: "say §l§b\"%PLAYER%\" §l§dĐã Mở Crate §6Legendary §dTại §e/warp crate"
+  lucky:
+    drops:
+      - id: 152
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 57
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 41
+        meta: 0
+        amount: 64
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 133
+        meta: 0
+        amount: 32
+      - id: 1
+        meta: 0
+        amount: 64
+      - id: 1
+        meta: 0
+        amount: 64
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 3
+        meta: 0
+        amount: 32
+      - id: 3
+        meta: 0
+        amount: 32
+      - id: 3
+        meta: 0
+        amount: 32
+      - id: 4
+        meta: 0
+        amount: 32
+      - id: 2
+        meta: 0
+        amount: 32
+      - id: 2
+        meta: 0
+        amount: 32
+      - id: 3
+        meta: 0
+        amount: 64
+      - id: 3
+        meta: 0
+        amount: 64
+      - id: 3
+        meta: 0
+        amount: 64
+      - id: 2
+        meta: 0
+        amount: 32
+      - id: 6
+        meta: 0
+        amount: 5
+      - id: 6
+        meta: 0
+        amount: 5
+      - id: 6
+        meta: 0
+        amount: 5
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 17
+        meta: 0
+        amount: 16
+      - id: 295
+        meta: 0
+        amount: 8
+      - id: 295
+        meta: 0
+        amount: 8
+      - id: 295
+        meta: 0
+        amount: 8
+      - id: 295
+        meta: 0
+        amount: 8
+      - id: 338
+        meta: 0
+        amount: 8
+      - id: 338
+        meta: 0
+        amount: 8
+      - id: 338
+        meta: 0
+        amount: 8
+      - id: 338
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - name: "§l§cÁo Thần §aRa え"
+        id: 311
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 6
+          unbreaking:
+            level: 6
+          autorepair:
+            level: 2
+          armored:
+            level: 2
+        lore: "§l§e-=§c☯§e=- §6Armored§d(§eLV 2§d)§6: Giảm Sát Thương Của Kiếm\n§l§e-=§c☯§e=- §6AutoRepair§d(§eLV 2§d)§6: Tự sửa độ bền của giáp\n§d§oĐộ Bền:§e ■■■□□□□□□□\n§d§oSức Bảo Vệ:§a ■■■□□□□□□□\n§c§oKhông có nội tại phụ"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§cÁo Thần §aRa え."
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 362
+        meta: 0
+        amount: 8
+      - id: 12
+        meta: 0
+        amount: 32
+      - name: "§l§eKey §6Legendary"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "key legendary \"%PLAYER%\" 1"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§eKey §6Legendary."
+      - name: "§l§eKey §4Mythic"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "key mythic \"%PLAYER%\" 1"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§eKey §4Mythic."
+      - name: "§l§eKey §eVote"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "key vote \"%PLAYER%\" 1"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§eKey §eVote."
+      - name: "§l§eKey §aUncommon"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "key uncommon \"%PLAYER%\" 1"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§eKey §aUncommon."
+      - name: "§l§eKey §fCommon"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "key common \"%PLAYER%\" 1"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§eKey §fCommon."
+      - name: "§l§6300,000$"
+        id: 130
+        meta: 50
+        amount: 1
+        commands:
+          - "givemoney \"%PLAYER%\" 300000"
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §a$300,000."
+      - name: "§l§aCung §fBức Tốc§r"
+        id: 261
+        meta: 0
+        amount: 1
+        enchantments:
+          power:
+            level: 5
+          unbreaking:
+            level: 4
+          mending:
+            level: 2
+          flame:
+            level: 3
+          punch:
+            level: 3
+          healing:
+            level: 1
+        lore: "§l§e-=§c☯§e=- §6Healing §d(§eLV 1§d): §6 Hồi Máu Cho Đồng Đội Khi Bắn Vào\n§d§oĐộ Bền:§e ■■□□□□□□□□\n§d§oSát Thương:§a ■■■□□□□□□□\n§6§oCó Khả Năng Hồi Phục Lại Kha Khá Độ Bền Nhờ Exp Của Quái §8(Nội Tại Phụ)\n§6§oGây Cháy Và Làm Bật Lùi Đối Phương Ở Cự Ly Khá Gần §8(Nội Tại Phụ)§r"
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§aCung §fBức Tốc§r."
+      - name: "§l§eCúp §dQuân Vương 彡"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 6
+          unbreaking:
+            level: 6
+          fortune:
+            level: 3
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền:§e ■■■□□□□□□□\n§d§oTốc Độ Đào:§a ■■■□□□□□□□\n§6§oCó Tỉ Lệ Cực Cao Nhân Đôi Số Lượng Vật Phẩm Mà Bạn Đào Từ Quặng §8(Nội Tại Phụ)\n\n§r§o§7Cúp độc quyền được lưu truyền 300 năm về trước."
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§eCúp §dQuân Vương 彡."
+      - name: "§l§eCúp §dQuân Vương 彡"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 6
+          unbreaking:
+            level: 6
+          fortune:
+            level: 3
+        lore: "§l§e-=§c☯§e=- §dChưa Có Nội Tại\n§d§oĐộ Bền:§e ■■■□□□□□□□\n§d§oTốc Độ Đào:§a ■■■□□□□□□□\n§6§oCó Tỉ Lệ Cực Cao Nhân Đôi Số Lượng Vật Phẩm Mà Bạn Đào Từ Quặng §8(Nội Tại Phụ)\n\n§r§o§7Cúp độc quyền được lưu truyền 300 năm về trước."
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§eCúp §dQuân Vương 彡."
+      - name: "§l§c○✠○ Thanh §4Côn §eKiếm ○✠○"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          autorepair:
+            level: 5
+          lightning:
+            level: 5
+          sharpness:
+            level: 35
+          unbreaking:
+            level: 35
+          knockback:
+            level: 5
+          fire_aspect:
+            level: 5
+        lore: "§l§e-=§c☯§e=- §6AutoRepair §d(§eLV 5§d)§6: Tự Sửa Chữa Vật Phẩm§6\n§l§e-=§c☯§e=- §6LightNing §d(§eLV 5§d)§6: Tạo Ra Tia Sét Khi Tấn Công Kẻ Thù§6\n§d§oSát Thương:§e ■■■■■■■■■■■\n§d§oĐộ Bền:§a ■■■■■■■■■■■\n§6§oGây Cháy Đối Phương §8(Nội Tại Phụ)§r\n§6§l§oLàm Bật Lùi Đối Phương §8(Nội Tại Phụ)§r\n\n§r§o§7Vua của vinh quang."
+        commands:
+          - "say §l§b\"%PLAYER%\" §6 Đã Mở Crate §6L§eU§aC§bK§dI§cL§fY §6Và Nhận Được §l§c○✠○ Thanh §4Côn §eKiếm ○✠○."
+    block: "152:0"
+    broadcast:
+      enable: true
+      command: "say §l§b\"%PLAYER%\" §l§dĐã Mở Crate §6L§eU§aC§bK§dI§cL§fY §dTại §e/warp crate"
+  eventboss:
+    drops:
+      - name: "§l§eMẢNH VỠ BIỂN CẢ §r§c【Event Trade §f☘§l§r§c】"
+        id: 409
+        meta: 5
+        amount: 1
+        lore: "§7Vật phẩm đặc biệt dùng tại khu /warp trade\n§l§cCÁCH DÙNG: §aDùng để đổi giáp sự kiện, nhớ đổi tránh hết hạn"
+        commands:
+          - "say §l§7【§a༺§b§bиσναмιиє §aиєтωσяк§a༻§7】 §b\"%PLAYER%\" §6 Đã Mở Crate §cEvent§fBoss §6Và Nhận Được §l§eMẢNH VỠ BIỂN CẢ §r§c【Event Trade §f☘§l§r§c】§6."
+      - name: "§l§7SẮT VỤN"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§l§6TINH HOA NGOẠN LẠC §r§c【Event Trade §f☘§l§r§c】"
+        id: 348
+        meta: 5
+        amount: 1
+        lore: "§7Vật phẩm đặc biệt dùng tại khu /warp trade\n§l§cCÁCH DÙNG: §aDùng để đổi kiếm sự kiện, nhớ đổi tránh hết hạn"
+        commands:
+          - "say §l§7【§a༺§b§bиσναмιиє §aиєтωσяк§a༻§7】 §b\"%PLAYER%\" §6 Đã Mở Crate §cEvent§fBoss §6Và Nhận Được §l§eTINH HOA NGỌAN LẠC §r§c【Event Trade §f☘§l§r§c】§6."
+      - name: "§l§7SẮT VỤN"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§l§eMẢNH VỠ BIỂN CẢ §r§c【Event Trade §f☘§l§r§c】"
+        id: 409
+        meta: 5
+        amount: 3
+        lore: "§7Vật phẩm đặc biệt dùng tại khu /warp trade\n§l§cCÁCH DÙNG: §aDùng để đổi giáp sự kiện, nhớ đổi tránh hết hạn"
+        commands:
+          - "say §l§7【§a༺§b§bиσναмιиє §aиєтωσяк§a༻§7】 §b\"%PLAYER%\" §6 Đã Mở Crate §cEvent§fBoss §6Và Nhận Được §l§eMẢNH VỠ BIỂN CẢ §r§c【Event Trade §f☘§l§r§c】§6."
+      - name: "§l§7SẮT VỤN"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§l§6TINH HOA NGOẠN LẠC §r§c【Event Trade §f☘§l§r§c】"
+        id: 348
+        meta: 5
+        amount: 3
+        lore: "§7Vật phẩm đặc biệt dùng tại khu /warp trade\n§l§cCÁCH DÙNG: §aDùng để đổi kiếm sự kiện, nhớ đổi tránh hết hạn"
+        commands:
+          - "say §l§7【§a༺§b§bиσναмιиє §aиєтωσяк§a༻§7】 §b\"%PLAYER%\" §6 Đã Mở Crate §cEvent§fBoss §6Và Nhận Được §l§eTINH HOA NGỌAN LẠC §r§c【Event Trade §f☘§l§r§c】§6."
+      - name: "§l§7SẮT VỤN"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§l§7SẮT VỤN"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§l§7SẮT VỤN"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§l§7SẮT VỤN"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§l§7SẮT VỤN"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§l§7SẮT VỤN"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§l§7SẮT VỤN"
+        id: 265
+        meta: 0
+        amount: 64
+      - name: "§l§7SẮT VỤN"
+        id: 265
+        meta: 0
+        amount: 64
+    block: "22:0"
+    broadcast:
+      enable: true
+      command: "say §l§7【§a༺§b§bиσναмιиє §aиєтωσяк§a༻§7】 §b\"%PLAYER%\" §l§dĐã Mở Crate §cEvent§fBoss §dTại §e/warp crates"
+  eventbossdev:
+    drops:
+      - name: "§l§eMẢNH VỠ BIỂN CẢ §r§c【Event Trade §f☘§l§r§c】"
+        id: 409
+        meta: 5
+        amount: 64
+        lore: "§7Vật phẩm đặc biệt dùng tại khu /warp trade\n§l§cCÁCH DÙNG: §aDùng để đổi giáp sự kiện, nhớ đổi tránh hết hạn"
+        commands:
+          - "say §l§7【§a༺§b§bиσναмιиє §aиєтωσяк§a༻§7】 §b\"%PLAYER%\" §6 Đã Mở Crate §cEvent§fBoss §6Và Nhận Được §l§eMẢNH VỠ BIỂN CẢ §r§c【Event Trade §f☘§l§r§c】§6."
+      - name: "§l§6TINH HOA NGOẠN LẠC §r§c【Event Trade §f☘§l§r§c】"
+        id: 348
+        meta: 5
+        amount: 64
+        lore: "§7Vật phẩm đặc biệt dùng tại khu /warp trade\n§l§cCÁCH DÙNG: §aDùng để đổi kiếm sự kiện, nhớ đổi tránh hết hạn"
+        commands:
+          - "say §l§7【§a༺§b§bиσναмιиє §aиєтωσяк§a༻§7】 §b\"%PLAYER%\" §6 Đã Mở Crate §cEvent§fBoss §6Và Nhận Được §l§eTINH HOA NGỌAN LẠC §r§c【Event Trade §f☘§l§r§c】§6."
+    block: "98:3"
+    broadcast:
+      enable: true
+      command: "say §l§7【§a༺§b§bиσναмιиє §aиєтωσяк§a༻§7】 §b\"%PLAYER%\" §l§dĐã Mở Crate §cEvent§fBossDEV"
+
+# ---------------------------------------------------------
+# Bạn Có Thể Thêm Nhiều Rương Hơn Bằng Cách Viết Dòng Code Cùng Dòng Với Nhau.
+# ---------------------------------------------------------
+...

@@ -1,0 +1,10 @@
+name: EnchantVIPUI
+main: UnknownOre1\EnchantVipUI\Main
+version: 0.6
+api: 3.0.0
+load: POSTWORLD
+author: UnknownOreforsource|RBpmmpformod
+permissions:
+  eshop.command:
+    default: true
+    description: "use all EnchantUI Commands"

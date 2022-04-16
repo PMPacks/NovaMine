@@ -1,0 +1,129 @@
+---
+command:
+  clan:
+    usage: "§cDùng: /clan <subcommand: string>"
+    cannotUseSubcommand: "§cBạn không thể sử dụng lệnh này!"
+  accept:
+    alreadyInClan: "§cBạn đã ở trong 1 quân đoàn rồi!"
+    passClan: "§cHãy nhập một quân đoàn!"
+    invalidClan: "§cKhông có quân đoàn nào với tên đó!"
+    notInvited: "§cBạn chưa được mời vào quân đoàn này!"
+    success: "§aBạn đã tham gia quân đoàn {clan}§a!"
+  chat:
+    disabled: "§cTính năng này đã bị tắt!"
+    noClan: "§cBạn cần phải ở trong một quân đoàn để sử dụng!"
+    passMessage: "§cHãy nhập 1 tin nhắn!"
+    on: "§aBạn đang ở chế độ chat quân đoàn."
+    off: "§aBạn không còn ở chế độ chat quân đoàn."
+  create:
+    alreadyInClan: "§cBạn đang ở trong 1 quân đoàn rồi!"
+    passClan: "§cHãy nhập một quân đoàn!"
+    clanExists: "§cĐã có quân đoàn với tên đó rồi!"
+    bannedName: "§cBạn không được phép nhập tên này!"
+    notEnoughMoney: "§cBạn không đủ (§6{price}§c) để tạo clan!"
+    success: "§aBạn đã thành công tạo quân đoàn với tên {clan}§a."
+  delete:
+    noClan: "§cBạn cần phải ở trong 1 quân đoàn để sử dụng!"
+    notLeader: "§cBạn cần là người điều hành mới có thể xoá!"
+    cancelled: "§cXoá quân đoàn đã bị huỷ!"
+  demote:
+    noClan: "§cBạn cần phải ở trong 1 quân đoàn để sử dụng!"
+    notLeader: "§cBạn cần là người điều hành mới có thể hạ cấp một ai đó!"
+    passPlayer: "§cHãy nhập một người chơi!"
+    notInClan: "§b{player} §ckhông có trong quân đoàn của bạn!"
+    alreadyLowest: "§cNgười chơi này không thể hạ cấp được nữa!"
+    success: "§aBạn đã hạ cấp §b{player} §athành {rank}§a."
+  deposit:
+    disabled: "§cTính năng này bị tắt!"
+    noClan: "§cBạn cần phải ở trong một quân đoàn để sử dụng tính năng này!"
+    passNumber: "§cVui lòng chuyển một số hợp lệ!"
+    tooMuch: "§cBạn không thể gửi nhiều như vậy!"
+    success: "§aBạn đã gửi thành công §6{amount}§a$ đến ngân hàng quân đoàn của bạn."
+  help:
+    success: "§bClan §cHelp:\n§e/clan help §d- §6Displays this list of available commands\n§e/clan create <clanname> §d- §6Creates a clan\n§e/clan demote <playername> §d- §6Demotes a player\n§e/clan deposit <amount> §d- §6Deposits money to the clan bank\n§e/clan info [clanname] §d- §6Gives you information about your/a clan\n§e/clan invite <playername> §d- §6Invites a player to your clan\n§e/clan accept <clanname> §d- §6Accepts a clan invitation\n§e/clan join <clanname> §d- §6Joins a clan (only for staff)\n§e/clan leave §d- §6Leaves a clan\n§e/clan leader <playername> §d- §6Promotes a player to the clan leader\n§e/clan chat <message> §d- §6Sends a message to your clan\n§e/clan kick <playername> §d- §6Kicks the given player from the clan\n§e/clan delete §d- §6Deletes your clan\n§e/clan promote <playername> §d- §6Promotes a player\n§e/clan home §d- §6Teleports you to your clan's home\n§e/clan sethome §d- §6Updates your clan's home\n§e/clan withdraw <amount> §d- §6Withdraws money from the clan bank\n§e/clan about §d- §6Shows credits and the version of BedrockClans"
+  home:
+    disabled: "§cTính năng này bị vô hiệu hóa!"
+    noClan: "§cBạn cần phải ở trong một quân đoàn để sử dụng tính năng này!"
+    noHome: "§cClan của bạn không có nhà!"
+    success: "§aBạn đã dịch chuyển thành công đến nhà của quân đoàn."
+  info:
+    noClan: "§cBạn cần phải ở trong một quân đoàn hoặc nhập tên một quân đoàn để sử đụng!"
+    invalidClan: "§cKhông có quân đoàn nào với tên đó!"
+    success: "§eThông tin về quân đoàn {name}§e:\n§bNgười điều hành: §c{leader}\n§bThành viên: §c{members}\n§bNgân hàng: §c{bank}$"
+  invite:
+    noClan: "§cBạn cần phải ở trong một quân đoàn để sử dụng tính năng này!"
+    noPermission: "§cBạn không được phép mời người khác vào quân đoàn của mình!"
+    passPlayer: "§cHãy nhập một người chơi!"
+    notFound: "§cKhông có người chơi nào có tên đó trực tuyến trên máy chủ này!"
+    alreadyInClan: "§cNgười chơi đó đã trong một quân đoàn!"
+    alreadyInvited: "§cNgười chơi này đã được mời vào quân đoàn của bạn!"
+    sender: "§aBạn đã thành công mời §b{player} §avào quân đoàn của bạn."
+    target: "§aBạn đã được mời vào quân đoàn {clan} §abởi §b{player}§a."
+  join:
+    alreadyInClan: "§cBạn đã ở trong một quân đoàn!"
+    passClan: "§cHãy nhập một quân đoàn!"
+    invalidClan: "§cKhông có quân đoàn nào với tên đó!"
+    success: "§aBạn đã vào quân đoàn {clan}§a."
+  kick:
+    noClan: "§cBạn cần phải ở trong một quân đoàn để sử dụng tính năng này!"
+    notLeader: "§cBạn cần là người điều hành thì mới có thể đá người chơi ra khỏi quân đoàn!"
+    passPlayer: "§cHãy nhập một người chơi!"
+    notInClan: "§b{player} §ckhông có trong quân đoàn của bạn!"
+    cannotKickLeader: "§cBạn không thể đá người điều hành ra khỏi quân đoàn của họ!"
+    success: "§aBạn đã thành công đá §b{player} §ara khỏi quân đoàn."
+  leader:
+    noClan: "§cBạn cần phải ở trong một quân đoàn để sử dụng tính năng này!"
+    notLeader: "§cBạn phải là người điều hành để thăng cấp một người nào đó lên vị trí 'Leader(^)'!"
+    passPlayer: "§cHãy nhập một người chơi!"
+    notInClan: "§b{player} §ckhông có trong quân đoàn của bạn!"
+    alreadyLeader: "§cNgười chơi này đã là người điều hành!"
+    success: "§aBạn đã thành công thêm §b{player} §alàm người điều hành cho quân đoàn của bạn."
+  leave:
+    noClan: "§cBạn cần phải ở trong một quân đoàn để sử dụng tính năng này!"
+    leader: "§cBạn không thể thoát khỏi quân đoàn vì bạn là người điều hành!"
+    success: "§aBạn đã thành công thoát khỏi quân đoàn."
+  promote:
+    noClan: "§cBạn cần phải ở trong một quân đoàn để sử dụng tính năng này!"
+    notLeader: "§cBạn cần là người điều hành để thăng cấp ai đó!"
+    passPlayer: "§cHãy nhập một người chơi!"
+    notInClan: "§b{player} §ckhông có trong quân đoàn của bạn!"
+    alreadyHighest: "§cNgười chơi này đã là người điều hành hoặc cao hơn!"
+    success: "§aBạn đã thành công thăng cấp §b{player} §athành {rank}§a."
+  setcolor:
+    noClan: "§cBạn cần phải ở trong một quân đoàn để sử dụng tính năng này!"
+    invalidColor: "§aMàu này không hợp lệ! Vui lòng sử dụng mã màu minecraft hoặc các từ tiếng Anh mặc định."
+    success: "§aMàu của quân đoàn bạn đã được thay đổi."
+  sethome:
+    disabled: "§cTính năng này đã bị tắt!"
+    noClan: "§cBạn cần phải ở trong một quân đoàn để sử dụng tính năng này!"
+    success: "§aNhà của quân đoàn đã được cập nhật thành công lên vị trí hiện tại của bạn."
+  withdraw:
+    disabled: "§cTính năng này đã bị tắt!"
+    noClan: "§cBạn cần phải ở trong một quân đoàn để sử dụng tính năng này!"
+    cooldown: "§cBạn không thể rút tiền từ ngân hàng quân đoàn cho đến hết §e{hours} tiếng, {minutes} phút và {seconds} giây§c!"
+    passNumber: "§cPlease pass a valid number!"
+    tooMuch: "§cBạn không thể rút nhiều thế này!"
+    success: "§aBạn đẫ thành công rút §6{amount}§a$ từ tài khoản ngân hàng của quân đoàn của bạn."
+clan:
+  join:
+    members: "§b{player} §6đã tham gia quân đoàn."
+  chat:
+    members: "§b[Quân Đoàn] §b> {player}§c: §r{message}"
+  delete:
+    members: "§cQuân đoàn của bạn đã bị xoá!"
+    money: "§aVì bạn là người điều hành của quân đoàn, bạn đã nhận được tiền trong tài khoản ngân hàng của quân đoàn (§6${amount}$§a)."
+  invite:
+    expired:
+      sender: "§cLời mời của bạn đến §b{target} §cđã hết hạn!"
+      target: "§cLời mời của bạn đến {clan} bởi §b{sender} §cđã hết hạn!"
+  kick:
+    kicked: "§cBạn đã bị đá khỏi quân đoàn bởi §b{player}§c."
+  leader:
+    newleader: "§aBây giờ bạn là người điều hành quân đoàn."
+  leave:
+    members: "§b{player} §cđã rời khỏi quân đoàn."
+  promote:
+    promoted: "§aBạn đã được thăng cấp lên {rank}§a."
+  demote:
+    demoted: "§cBạn đã bị hạ cấp xuống thành {rank}§c."
+...

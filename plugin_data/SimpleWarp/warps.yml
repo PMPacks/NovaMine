@@ -1,0 +1,16 @@
+---
+nether:
+  x: 290.578700
+  "y": 42.500000
+  z: 222.660300
+  level: nether
+  public: true
+  metadata: []
+pvp:
+  x: 154.489400
+  "y": 14.500000
+  z: 127.361600
+  level: pvpvip
+  public: true
+  metadata: []
+...

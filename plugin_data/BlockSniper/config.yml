@@ -1,0 +1,19 @@
+---
+Configuration Version: 4.2.0
+Message Language: en
+Brush Item:
+  Item ID: 396
+  Item Data: 0
+Selection Item:
+  Item ID: 348
+  Item Data: 0
+Maximum Size: 30
+Asynchronous Operation Size: 15
+Maximum Revert Stores: 15
+Reset Decrement Brush: true
+Save Brush Properties: true
+Drop Leaf Blower Plants: true
+Session Timeout Time in minutes: 5
+Open GUI Automatically: true
+MyPlot Support: false
+...

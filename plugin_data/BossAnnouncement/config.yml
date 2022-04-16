@@ -1,0 +1,48 @@
+---
+# Example Look
+# First 3 seconds:
+#
+#        Welcome to the server, {player}!
+# ================----------------------------------
+#        The coolest server in the world!
+#
+# Next 3 seconds:
+#
+#       Welcome to the server, {player}!
+# =================================-----------------
+#      Check out my GitHub: thebigsmileXD!
+#
+# If you leave the top message empty, the changing messages will be displayed above the bar.
+#
+#         Changing messages are up here :P
+# ==================================================
+#
+head-message: "                 §l§6❖ §bиσναмιиє §aиєтωσяк §4Việt Nam §6❖"
+# Changing messages are here
+# To set the percentage of the bar add {number%} before the message!
+# Otherwise it takes the percentage that was there before.
+# Example for a 25% filled: "{25%}This is a quarter filled bar"
+changing-messages:
+ - "{0%}{BOLD}          §aRanks§r, §l§bCoin§r, §l§eNhân Vật §e& §l§cMore §f► §6novasite.ga/novamine"
+ - "{25%}{BOLD}         §cRanks§r, §l§bCoin§r, §l§eNhân Vật §e& §l§cMore §f► §6novasite.ga/novamine"
+ - "{50%}{BOLD}         §aRanks§r, §l§cCoin§r, §l§eNhân Vật §e& §l§cMore §f► §6novasite.ga/novamine"
+ - "{75%}{BOLD}         §aRanks§r, §l§bCoin§r, §l§cNhân Vật §e& §l§cMore §f► §6novasite.ga/novamine"
+ - "{100%}{BOLD}        §aRanks§r, §l§bCoin§r, §l§eNhân Vật §c& §l§cMore §f► §6novasite.ga/novamine"
+# How fast the messages switch in seconds. 1 is minimum
+change-speed: 5
+# This changes the behaviour for multiple worlds
+# Mode 0: See the bar in every world
+# Mode 1: Display ONLY in the worlds in the array
+# Mode 2: Exclude worlds from the array
+mode: 0
+# Worlds: use the worldname, seperate with " , "
+# Example: Mode 1, worlds: ["world", "lobby", "survival"]
+worlds: []
+# Formatting strings:
+# {display_name}, {name}, {world}, {x}, {y}, {z}, {level_players}, {server_players}, {server_max_players},
+# {hour}, {minute}, {second}
+# {BLACK}, {DARK_BLUE}, {DARK_GREEN}, {DARK_AQUA}, {DARK_RED}, {DARK_PURPLE}, {GOLD}, {GRAY},
+# {DARK_GRAY}, {BLUE}, {GREEN}, {AQUA}, {RED}, {LIGHT_PURPLE}, {YELLOW}, {WHITE}, {OBFUSCATED}, {BOLD}
+# {STRIKETHROUGH}, {UNDERLINE}, {ITALIC}, {RESET}
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+...
